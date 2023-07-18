@@ -76,3 +76,8 @@
     @apply bg-background text-foreground;
   }
 }
+@layer components {
+  .darkColor {
+    color: #666
+  }
+}

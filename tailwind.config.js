@@ -14,6 +14,16 @@ module.exports = {
       screens: {
         "2xl": "1400px",
       },
+    letterSpacing: {
+      tightest: '-.075em',
+      tighter: '-.05em',
+      tight: '-.025em',
+      normal: '0',
+      wide: '.025em',
+      wider: '.05em',
+      widest: '.1em',
+      widest: '.25em',
+    }
     },
     extend: {
       keyframes: {
@@ -84,6 +94,9 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontSize: {
+        "8.5xl": "7rem"
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
