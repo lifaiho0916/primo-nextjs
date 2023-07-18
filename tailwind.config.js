@@ -96,7 +96,10 @@ module.exports = {
       },
       fontSize: {
         "8.5xl": "7rem"
-      }
+      },
+      fontFamily: {
+        "gros": "Space Grotesk"
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

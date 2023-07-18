@@ -1,5 +1,5 @@
 import * as React from 'react'
-
+import "../app/globals.css";
 //Home Page
 import HeroTitle from '@/components/pages/Home/HeroTitle'
 
