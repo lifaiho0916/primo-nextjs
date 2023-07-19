@@ -76,3 +76,11 @@
     @apply bg-background text-foreground;
   }
 }
+@layer components {
+  .darkColor {
+    color: #666
+  }
+  .font1 {
+    font-family: 'Space Grotesk'
+  }
+}
