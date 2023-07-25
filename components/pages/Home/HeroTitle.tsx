@@ -30,10 +30,10 @@ import CloneVitee from '@/utils/SvgIcons/CommonSvg/clonevitee';
 import CloneNuxt from '@/utils/SvgIcons/CommonSvg/clonenuxt';
 import ClonesVelet from '@/utils/SvgIcons/CommonSvg/clonesvelet';
 import CloneNext from '@/utils/SvgIcons/CommonSvg/CloneNext';
-import MessageTail from '@/utils/SvgIcons/CommonSvg/MessageTail';
 import BrowserLock from '@/utils/SvgIcons/CommonSvg/BrowserLock';
 import GlobeIcon from '@/utils/SvgIcons/CommonSvg/GlobeIcon';
 import Monitoring from '@/utils/SvgIcons/CommonSvg/Monitoring';
+import MessageTail from '@/utils/SvgIcons/CommonSvg/MessageTail';
 const HeroTitle = () => {
     //     flex-wrap: wrap;
     const [colors, setColors] = React.useState([
@@ -81,24 +81,24 @@ const HeroTitle = () => {
 
     return (
         <>
-            <div className='outer-hero container mx-auto pt-10 '>
-                <div className=' mx-auto px-5'>
-                    <h1 className="flex justify-center text-center text-[7rem] font-extrabold scale-90">
-                        <span className={getButtonClass(0)}>
-                            Develop.
-                        </span>
-                        <span className={getButtonClass(1)}>
-                            Preview.
-                        </span>
-                        <span className={getButtonClass(2)}>
-                            Ship.
-                        </span>
-                    </h1>
-
-                    <h2 className="text-2xl flex-row  darkColor">
-                        <div className="py-2 flex justify-center text-center hero_description">Vercel's frontend cloud gives developers the frameworks, workflows,<br /> and infrastructure to build a faster, more personalized Web.</div>
-
-                    </h2>
+        <div className='outer-hero container mx-auto '>
+            <div className=' mx-auto px-5'>
+            <h1 className="flex justify-center text-center text-[7rem] font-extrabold scale-90">
+                <span className={getButtonClass(0)}>
+                    Develop.
+                </span>
+                <span className={getButtonClass(1)}>
+                    Preview.
+                </span>
+                <span className={getButtonClass(2)}>
+                    Ship.
+                </span>
+            </h1>
+            
+            <h2 className="text-2xl flex-row  darkColor">
+                <div className="py-2 flex justify-center text-center hero_description">Vercel's frontend cloud gives developers the frameworks, workflows,<br/> and infrastructure to build a faster, more personalized Web.</div>
+                
+            </h2>
 
                     <div className="mt-12 flex justify-center gap-7">
                         <button className=" w-48 h-12 text-white font-medium bg-vi  rounded-lg text-lg  font-sans flex items-center justify-center gap-3 hover: bg-zinc-900 hover:bg-zinc-700 bg-black">
@@ -112,21 +112,21 @@ const HeroTitle = () => {
                     </div>
                 </div>
 
-                <div className=' mx-32 trusted_partners'>
-                    <section className="bg-white dark:bg-gray-900 items-center">
-                        <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
-                            <h2 className="mb-8  lg:mb-16 text-3xl font-extrabold  leading-tight text-center  text-xs tracking-[0.2rem] font-light uppercase text-grey font-semibold ">
-                                Trusted by the best frontend teams</h2>
-                            <div className="grid grid-cols-5 gap-8 text-gray-500 sm:gap-12  dark:text-gray-400">
-                                <a href="#" className="flex justify-center items-center">
-                                    <img src="/assets/svg/logo1.svg"></img>
-                                </a>
-                                <a href="#" className="flex justify-center items-center">
-                                    <img src="/assets/svg/okta.svg"></img>
-                                </a>
-                                <a href="#" className="flex justify-center items-center">
-                                    <img src="/assets/svg/under-armour.svg"></img>
-                                </a>
+            <div className=' mx-32 trusted_partners'>
+            <section className="bg-white dark:bg-gray-900 items-center">
+    <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
+        <h2 className="mb-8  lg:mb-16 text-3xl font-extrabold  leading-tight text-center  text-xs tracking-[0.2rem] font-light uppercase text-grey font-semibold ">
+        Trusted by the best frontend teams</h2>
+        <div className="grid grid-cols-5 gap-8 text-gray-500 sm:gap-12  dark:text-gray-400">
+            <a href="#" className="flex justify-center items-center">
+                <img src="/assets/svg/logo1.svg"></img>                      
+            </a>
+            <a href="#" className="flex justify-center items-center">
+                <img src="/assets/svg/okta.svg"></img>                                             
+            </a>
+            <a href="#" className="flex justify-center items-center">
+            <img src="/assets/svg/under-armour.svg"></img>                                                                  
+            </a>
 
                                 <a href="#" className="flex justify-center items-center">
                                     <img src="/assets/svg/ebay.svg"></img>
@@ -154,9 +154,9 @@ const HeroTitle = () => {
 
                             </div>
 
-                        </div>
-                    </section>
-                </div>
+    </div>
+</section>
+            </div>
 
                 <div className='build_inspiration'>
                     <div className='build_inspiration_heading'>
