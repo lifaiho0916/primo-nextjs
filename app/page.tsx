@@ -8,9 +8,7 @@ const Home = () => {
   return (
     <>
     <HeaderBar />
-      <div className='flex justify-center items-center'>
       <HeroTitle />
-    </div>
     <FooterBar />
     </>
   );

@@ -1,85 +1,88 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
- 
+
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
- 
+
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
- 
+
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
- 
+
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
- 
+
     --primary: 222.2 47.4% 11.2%;
     --primary-foreground: 210 40% 98%;
- 
+
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
- 
+
     --accent: 210 40% 96.1%;
     --accent-foreground: 222.2 47.4% 11.2%;
- 
+
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
- 
+
     --ring: 215 20.2% 65.1%;
- 
+
     --radius: 0.5rem;
   }
- 
+
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
- 
+
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
- 
+
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
- 
+
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
- 
+
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
- 
+
     --primary: 210 40% 98%;
     --primary-foreground: 222.2 47.4% 11.2%;
- 
+
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
- 
+
     --accent: 217.2 32.6% 17.5%;
     --accent-foreground: 210 40% 98%;
- 
+
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 85.7% 97.3%;
- 
+
     --ring: 217.2 32.6% 17.5%;
   }
 }
- 
+
 @layer base {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
 }
+
 @layer components {
   .darkColor {
     color: #666
   }
+
   .font1 {
     font-family: 'Space Grotesk'
   }
@@ -88,7 +91,7 @@
 /* font webkit */
 @font-face {
   font-family: 'Inter';
-  src:url('/public/fonts/Inter-Bold.woff') format('woff');
+  src: url('/public/fonts/Inter-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -96,7 +99,7 @@
 
 @font-face {
   font-family: 'Inter';
-  src:url('/public/fonts/Inter-Light.woff') format('woff');
+  src: url('/public/fonts/Inter-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -104,7 +107,7 @@
 
 @font-face {
   font-family: 'Inter';
-  src:url('/public/fonts/Inter-ExtraBold.woff') format('woff');
+  src: url('/public/fonts/Inter-ExtraBold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -112,7 +115,7 @@
 
 @font-face {
   font-family: 'Inter';
-  src:url('/public/fonts/Inter-SemiBold.woff') format('woff');
+  src: url('/public/fonts/Inter-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -120,7 +123,7 @@
 
 @font-face {
   font-family: 'Inter';
-  src:url('/public/fonts/Inter-Regular.woff') format('woff');
+  src: url('/public/fonts/Inter-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -128,14 +131,15 @@
 
 @font-face {
   font-family: 'Inter';
-  src:url('/public/fonts/Inter-Medium.woff') format('woff');
+  src: url('/public/fonts/Inter-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: 'Inter';
-  src:url('/public/fonts/Inter-Thin.woff') format('woff');
+  src: url('/public/fonts/Inter-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -146,9 +150,19 @@
 /* colors */
 :root {
   --lightgrey-color: #666;
-  --black-color:#171717;
-  --darkblack-color:#000;
-  --normalgrey-color:#00000014;
-  --white-color:#fff;
+  --black-color: #171717;
+  --darkblack-color: #000;
+  --normalgrey-color: #00000014;
+  --white-color: #fff;
   --grey-white-color: #ededed;
+  --accents-2: #eaeaea;
+  --geist-foreground: #000;
+  --geist-background: #fff;
+  --geist-success: #0070f3;
+  
+}
+
+/* padding */
+:root {
+  --geist-space-gap: 24px;
 }
