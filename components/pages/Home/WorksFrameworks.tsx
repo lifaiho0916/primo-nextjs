@@ -20,7 +20,7 @@ const WorksFrameworks = () => {
         <div className="logos_framework flex items-center justify-center flex-wrap">
           <TooltipProvider>
             <Tooltip>
-              <div className="next_logo m-3">
+              <div className="next_logo  m-3">
                 <TooltipTrigger asChild>
                   <Button variant="outline">
                     <NextJs />

@@ -24,10 +24,10 @@ const DelightVisitor =()=>{
   </div>
 
   <div className="ship_section_item mt-9">
-    <div className="icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center">
+    <div className="icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center darksvg">
       <GlobeIcon />
     </div>
-    <h5 className="text-black text-[22px] font-semibold mt-2">
+    <h5 className="text-black text-[22px] font-semibold mt-2 darktext">
       Global Edge Network
     </h5>
     <p className="text-[#666] leading-7 font-normal text-[15px]">
@@ -37,10 +37,10 @@ const DelightVisitor =()=>{
   </div>
 
   <div className="ship_section_item mt-9 mb-9">
-    <div className="icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center">
+    <div className="icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center darksvg">
       <Monitoring />
     </div>
-    <h5 className="text-black text-[22px] font-semibold mt-2">
+    <h5 className="text-black text-[22px] font-semibold mt-2 darktext">
       First-party monitoring and observability
     </h5>
     <p className="text-[#666] leading-7 font-normal text-[15px]">

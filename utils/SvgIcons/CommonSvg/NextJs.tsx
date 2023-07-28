@@ -3,7 +3,7 @@ export default function NextJs() {
     maskType: 'alpha',
   };
   return (
-    <svg aria-label="" className="next-mark_root__iLw9v" height="38" role="img" viewBox="0 0 180 180" width="38">
+    <svg aria-label="" className="svg-border next-mark_root__iLw9v" height="38" role="img" viewBox="0 0 180 180" width="38">
       <mask height="180" id=":Rb55pcbsla6:mask0_408_134" maskUnits="userSpaceOnUse" style={maskStyle} width="180" x="0" y="0">
         <circle cx="90" cy="90" fill="black" r="90" />
       </mask>

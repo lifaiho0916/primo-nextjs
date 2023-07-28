@@ -16,12 +16,12 @@ const VercelJourney = () => {
           </h6>
         </div>
         <div className="get_started_wrapper flex justify-center gap-x-12">
-          <div className="Import_Git_Repository border-[1px] border-[#eaeaea] shadow-[0_8px_30px_rgba(0,0,0,0.12)] rounded-s-md  p-8 w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[50%]">
-            <h5 className="text-2xl tracking-[-0.02rem] text-[#171717] mb-4 font-semibold">
+          <div className="Import_Git_Repository border-[1px] border-[#eaeaea] shadow-[0_8px_30px_rgba(0,0,0,0.12)] rounded-s-md  p-8 w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[50%] border_class">
+            <h5 className="text-2xl tracking-[-0.02rem] text-[#171717] mb-4 font-semibold darktext">
               Import Git Repository
             </h5>
-            <div className="Import_content border-[1px] border-[#eaeaea] text-center bg-[#fafafa] rounded-md p-12">
-              <p className="text-sm text-[#444] font-normal my-8">
+            <div className="Import_content border-[1px] border-[#eaeaea] text-center bg-[#fafafa] rounded-md p-12 darkbackground border_class">
+              <p className="text-sm text-[#444] font-normal my-8 darktext">
                 Select a Git provider to import an existing project from a Git
                 Repository.
               </p>
@@ -60,8 +60,8 @@ const VercelJourney = () => {
               </a>
             </div>
           </div>
-          <div className="clone_template border-[1px] border-[#eaeaea] rounded-md p-6 w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[48%">
-            <h5 className="text-2xl tracking-[-0.02rem] text-[#171717] font-semibold">
+          <div className="clone_template border-[1px] border-[#eaeaea] rounded-md p-6 w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[48%] border_none darkbackground">
+            <h5 className="text-2xl tracking-[-0.02rem] text-[#171717] font-semibold darktext"> 
               Clone Template
             </h5>
             <p className="clone_content text-sm text-[#666] font-normal leading-relaxed mt-2 mb-3">
@@ -115,10 +115,10 @@ const VercelJourney = () => {
               </div>
 
               <div className="framework_inner_card p-2 gap-x-2 align-middle">
-                <a className="shadow-[0_5px_10px_rgba(0,0,0,0.12)] block rounded-[5px]">
+                <a className="shadow-[0_5px_10px_rgba(0,0,0,0.12)] block rounded-[5px] vite_img">
                   <img
                     src="https://vercel.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F2T4BUF3mEBKPJF3jcjU6nS%2F0d4a02e7c48091d13814a4ab513e8734%2FScreen_Shot_2022-04-13_at_10.05.56_PM.png&w=1920&q=75&dpl=dpl_DPTJaywTzXZVoJSTMEDpgaG93rts"
-                    className="h-32"
+                    className="h-[133px]"
                   ></img>
                   {/* Clonevitejs*/}
                   <div className="content_cards_logo flex p-3  gap-x-2 align-middle">

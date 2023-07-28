@@ -10,14 +10,14 @@ const IterateTeam = () => {
     <>
     <div className="build_inspiration">
       <div className="build_inspiration_heading">
-        <span className="w-px flex  bg-gradient-to-b from-[#fff] to-[#9a1fb8] h-28 text-center m-auto"></span>
-        <span className="bg-gradient-to-r from-[#7928ca] to-[#ff0080] w-10 h-10 rounded-full flex m-auto text-white items-center justify-center">
+        <span className=" gradient_color2 w-px flex  bg-gradient-to-b from-[#fff] to-[#9a1fb8] h-28 text-center m-auto"></span>
+        <span className=" darkcolor bg-gradient-to-r from-[#7928ca] to-[#ff0080] w-10 h-10 rounded-full flex m-auto text-white items-center justify-center">
           2
         </span>
         <h4 className="mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#7928ca] to-[#ff0080] text-4xl font-bold text-center pt-4">
           Preview
         </h4>
-        <h2 className="font-bold text-black text-6xl text-center mb-6">
+        <h2 className="font-bold text-black text-6xl text-center mb-6 preview_tittle darktext">
           Iterate with your team
         </h2>
         <p className=" text-[#666] text-center text-[20px] w-[53%] font-normal m-auto mb-24">
@@ -29,18 +29,18 @@ const IterateTeam = () => {
         </p>
       </div>
 
-      <div className="main_outer_wrapper_item_section pb-[189px]">
+      <div className="main_outer_wrapper_item_section pb-[147px]">
         <div className="preview-item_wrapper flex pb-40 ">
-          <div className="outer_window  w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[48%] relative mr-7 mt-1.5">
-            <div className="window_screen shadow-[0_8px_30px_rgba(0,0,0,.12)] border-[#eaeaea] h-44  ">
-              <div className="window_top_bar flex items-center relative border-b-[1px] p-1.5 ">
+          <div className="outer_window  w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[45%] relative mr-1.5 mt-1.5">
+            <div className="window_screen _darkdash shadow-[0_8px_30px_rgba(0,0,0,.12)] border-[#eaeaea] h-44  ">
+              <div className="window_top_bar border_class flex items-center relative border-b-[1px] p-1.5 ">
                 <div className="window_traffic flex p-1 ">
                   <span className="bg-[#ff5f56] w-3 h-3 rounded-full"></span>
                   <span className="bg-[#ffbd2e] w-3 h-3 rounded-full ml-2"></span>
                   <span className="bg-[#27c93f] w-3 h-3 rounded-full ml-2 mr-2"></span>
                 </div>
                 <div className="window_with_tabs ">
-                  <span className="color-[#666] text-xs font-light p-1.5 border-r-[1px] border-l-[1px] absolute bottom-[0px] bg-[#fff] ">
+                  <span className="__className_20951f color-[#666] text-xs font-light p-1.5 border-r-[1px] border-l-[1px] absolute bottom-[0px] bg-[#fff] ">
                     bash
                   </span>
                 </div>
@@ -58,7 +58,7 @@ const IterateTeam = () => {
             <div className="previus_push_comment">
               <hr className="w-0.5 h-5 bg-[#eaeaea] ml-4 mt-1 mb-1" />
               <div className="stack_stack flex items-center">
-                <div className="rocket_icon bg-[#eaeaea] w-8 h-8 rounded-full flex justify-center items-center">
+                <div className="darksvg rocket_icon bg-[#eaeaea] w-8 h-8 rounded-full flex justify-center items-center">
                   <svg fill="none" height="16" viewBox="0 0 16 16" width="16">
                     <path
                       clip-rule="evenodd"
@@ -83,31 +83,31 @@ const IterateTeam = () => {
                   </svg>
                 </div>
                 <p className="text-[#666] text-[13px]">
-                  <span className="text-black text-sm pl-0.5 ml-0.5">
+                  <span className="text-black text-sm pl-0.5 ml-0.5 darktext">
                     verce
                   </span>{" "}
                   <span className="border-[#666] border  text-xs font-medium px-2.5 py-0.5 rounded-2xl :hover border-[#222]">
                     bot
                   </span>{" "}
-                  deployed to <span className="font-medium">Preview</span> just
-                  now
+                  deployed to <span className="font-medium">Preview</span><span className="text_hide"> just
+                  now</span>
                 </p>
               </div>
             </div>
           </div>
-          <div className="center_path_lines relative l-[4px] ">
-            <div className="div_gradient w-px flex  bg-gradient-to-b from-[#fff] to-[rgb(102,102,102)] h-28  "></div>
-            <div className="div_circle3 border-2 rounded-full w-3 h-3 border-[#666] mx-auto absolute left-[-5px] "></div>
-            <div className="div_center_lines border border-dashed absolute h-[390px] border-[#666] w-px m-auto"></div>
+          <div className="center_path_lines relative l-[4px] w-[10%] flex justify-center ">
+            <div className="div_gradient w-px flex  bg-gradient-to-b from-[#fff] to-[rgb(102,102,102)] h-28 absolute top-[-18px]  "></div>
+            <div className="div_circle3 border-2 rounded-full w-3 h-3 border-[#666] mx-auto absolute left-0 right-0 top-[96px] "></div>
+            <div className="div_center_lines border border-dashed absolute h-[340px] border-[#666] w-px m-auto top-[112px]"></div>
           </div>
-          <div className="develop_demo_benefits_item pb-0 pt-24 w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[51%] px-8 ">
+          <div className="develop_demo_benefits_item push_section pb-0 pt-24 w-full sm:w-full md:w-full lg:w-1/2 xl:w-[45%] px-8 ">
             <div className="line_path hidden">
               <div className="div_gradient w-px flex  bg-gradient-to-b from-[#fff] to-[rgb(102,102,102)] h-28  "></div>
               <div className="div_circle border-2 rounded-full w-3 h-3 border-[#666] mx-auto absolute left-[-5px] "></div>
             </div>
-            <div className="icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center">
+            <div className="svgtransparent icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center">
               <svg
-                className="with-icon_icon__MHUeb stroke-[#666]"
+                className=" with-icon_icon__MHUeb stroke-[#666]"
                 data-testid="geist-icon"
                 fill="#fff"
                 height="24"
@@ -124,7 +124,7 @@ const IterateTeam = () => {
                 <path d="M12 2v13"></path>
               </svg>
             </div>
-            <h5 className="text-black text-[22px] font-semibold mt-2">
+            <h5 className="text-black text-[22px] font-semibold mt-2 darktext">
               Push to deploy
             </h5>
             <p className="text-[#666] leading-7 font-normal text-[15px]">
@@ -135,9 +135,9 @@ const IterateTeam = () => {
         </div>
 
         <div className="preview-item_wrapper flex">
-          <div className="outer_preview_content relative w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[48%]  mr-7 ">
+          <div className="outer_preview_content relative w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[45%]  mr-1.5 ">
             <div className="preview_content_text  relative shadow-[0_8px_30px_rgba(0,0,0,.12)] border-[#eaeaea] pt-0 p-2.5  pl-0 pr-0 pb-6 rounded-md">
-              <div className="preview_comment_header pt-2   pb-2 bg-[#f6f8fa] pl-2 rounded-tl-lg rounded-tr-lg">
+              <div className="dark_border_background preview_comment_header pt-2   pb-2 bg-[#f6f8fa] pl-2 rounded-tl-lg rounded-tr-lg">
                 <p className="text-[12px]">
                   <span>
                     <b>vercel</b>{" "}
@@ -287,17 +287,17 @@ const IterateTeam = () => {
             </div>
           </div>
 
-          <div className="center_path_lines relative">
-            <div className="div_circle2 border-2 rounded-full w-3 h-3 border-[#666] mx-auto absolute top-[102px] left-[-5px] "></div>
-            <div className="div_center_lines border border-dashed  border-[#666] w-px m-auto absolute h-[410px] top-[116px]"></div>
+          <div className="center_path_lines relative w-[10%] flex justify-center">
+            <div className="div_circle2 border-2 rounded-full w-3 h-3 border-[#666] mx-auto absolute top-[54px] left-0 right-0 "></div>
+            <div className="div_center_lines border border-dashed  border-[#666] w-px m-auto absolute h-[430px] top-[68px]"></div>
           </div>
 
-          <div className="develop_demo_benefits_item pb-0 pt-24 w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[51%] px-8">
+          <div className="develop_demo_benefits_item branch_section pb-0 pt-24 w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[45%] px-8">
             <div className="line_path hidden">
               <div className="div_gradient w-px flex  bg-gradient-to-b from-[#fff] to-[rgb(102,102,102)] h-28  "></div>
               <div className="div_circle border-2 rounded-full w-3 h-3 border-[#666] mx-auto absolute left-[-6px] "></div>
             </div>
-            <div className="icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center">
+            <div className="svgtransparent icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center">
               <svg
                 className=" stroke-[#666] with-icon_icon__MHUeb"
                 data-testid="geist-icon"
@@ -316,7 +316,7 @@ const IterateTeam = () => {
                 <path d="M10 14L21 3"></path>
               </svg>
             </div>
-            <h5 className="text-black text-[22px] font-semibold mt-2">
+            <h5 className="text-black text-[22px] font-semibold mt-2 darktext">
               Automatic Previews for every branch
             </h5>
             <p className="text-[#666] leading-7 font-normal text-[15px]">
@@ -327,7 +327,7 @@ const IterateTeam = () => {
         </div>
 
         <div className="preview-item_wrapper flex">
-          <div className="graphic_review mt-20 w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[48%] relative mr-7 ">
+          <div className="graphic_review mt-20 w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[45%] relative mr-1.5 ">
             <div className="shadow-[0_0_33px_0px_rgba(0,0,0,0.3)] relative">
               <div className="window_top_bar flex items-center border-b-2 p-1.5 ">
                 <div className="window_traffic flex p-1 ">
@@ -375,17 +375,17 @@ const IterateTeam = () => {
             </div>
           </div>
 
-          <div className="center_path_lines relative">
-            <div className="div_circle border-2 rounded-full w-3 h-3 border-[#666] mx-auto absolute top-[204px] left-[-5px] "></div>
-            <div className="div_line w-px flex  bg-gradient-to-b from-[#999] to-[#f9cb28]  text-center m-auto absolute h-[580px] top-[219px]"></div>
+          <div className="center_path_lines relative w-[10%] flex  justify-center">
+            <div className="div_circle border-2 rounded-full w-3 h-3 border-[#666] mx-auto absolute top-[184px] "></div>
+            <div className="div_line w-px flex  bg-gradient-to-b from-[#999] to-[#f9cb28]  text-center m-auto absolute h-[577px] top-[202px]"></div>
           </div>
 
-          <div className="develop_demo_benefits_item pb-0 pt-32 w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[51%] px-8">
+          <div className="develop_demo_benefits_item pb-0 pt-32 w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[45%] px-8">
             <div className="line_path hidden">
               <div className="div_gradient w-px flex  bg-gradient-to-b from-[#fff] to-[rgb(102,102,102)] h-28  "></div>
               <div className="div_circle border-2 rounded-full w-3 h-3 border-[#666] mx-auto absolute left-[-6px] "></div>
             </div>
-            <div className="icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center">
+            <div className="svgtransparent icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center">
               <svg
                 className="with-icon_icon__MHUeb"
                 data-testid="geist-icon"
@@ -405,7 +405,7 @@ const IterateTeam = () => {
                 <path d="M16 3.13a4 4 0 010 7.75"></path>
               </svg>
             </div>
-            <h5 className="text-black text-[22px] font-semibold mt-2">
+            <h5 className="text-black text-[22px] font-semibold mt-2 darktext">
               Collaborative reviews on UI
             </h5>
             <p className="text-[#666] leading-7 font-normal text-[15px] mb-7">
@@ -436,7 +436,7 @@ const IterateTeam = () => {
 <h4 className="mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#ff4d4d] to-[#f9cb28] text-4xl font-bold text-center pt-4">
   Ship
 </h4>
-<h2 className="font-bold text-black text-6xl text-center mb-6">
+<h2 className="font-bold text-black text-6xl text-center mb-6 darktext">
   Delight every visitor
 </h2>
 </div>

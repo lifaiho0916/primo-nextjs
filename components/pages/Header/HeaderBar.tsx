@@ -1,16 +1,18 @@
 import Logo from "./HeaderSvgIcons/Logo";
 import "./header.css"
+import { NavbarDefault } from "./Navbar";
 
 const HeaderBar = () => {
     return (
-        <header className="border-[#ddd] border">
-    <nav className="bg-white border-gray-200 px-4 lg:px-6 py-4 dark:bg-gray-800 page-header">
+        <header>
+    <nav className="darknav border-gray-200 px-4 lg:px-6 py-0 dark:bg-gray-800 page-header fixed w-full max-w-full fixed z-[3]">
+            <NavbarDefault />
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <div className="flex header-navigation">
+            {/* <div className="flex header-navigation">
                 <a href="https://flowbite.com" className="flex items-center">
                     <Logo />
-                    {/* <img src="ßßßsarhdas" className="mr-3 h-6 sm:h-9" alt="Flowbite Logo" /> */}
-                    {/* <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">logo</span> */}
+                    <img src="ßßßsarhdas" className="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
+                    <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">logo</span>
                 </a>
                 <div className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1 px-5" id="mobile-menu-2">
                     <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 header-links">
@@ -37,7 +39,7 @@ const HeaderBar = () => {
                 <a href="#" className="contact-link">Contact</a>
                 <a href="#" className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800 log-in-link">Log in</a>
                 <a href="#" className="signup-link rounded-lg">Sign Up</a>
-            </div>
+            </div> */}
             
         </div>
     </nav>

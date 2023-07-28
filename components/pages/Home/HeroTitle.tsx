@@ -82,7 +82,7 @@ const HeroTitle = () => {
                     </h2>
 
                     <div className="outer_btns mt-12 flex justify-center gap-7">
-                        <button className=" w-48 h-12 text-white font-medium bg-vi  rounded-lg text-lg  font-sans flex items-center justify-center gap-3 hover: bg-zinc-900 hover:bg-zinc-700 bg-black">
+                        <button className=" w-48 h-12 text-white font-medium bg-vi  rounded-lg text-lg  font-sans flex items-center justify-center gap-3 hover: bg-zinc-900 hover:bg-zinc-700 bg-black darkbutton">
                             <svg aria-label="Vercel Logo" fill="currentColor" viewBox="0 0 75 65" height="15.6" width="18"><path d="M37.59.25l36.95 64H.64l36.95-64z"></path>
                             </svg>
                             Start Deploying

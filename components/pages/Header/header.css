@@ -32,3 +32,13 @@
 .page-header .header-navigation {
     gap: 21px;
 }
+.header_buttons .log_in_btn{
+    background-color: white;
+}
+.header_buttons .sign_up_btn{
+    background-color: #222;
+}
+.navbar{
+    max-width: 100%;
+    margin: 0;
+}

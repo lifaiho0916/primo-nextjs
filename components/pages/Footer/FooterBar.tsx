@@ -17,7 +17,7 @@ import DarkmodeLogo from "@/utils/SvgIcons/CommonSvg/DarkmodeLogo";
 import LightmodeLogo from "@/utils/SvgIcons/CommonSvg/LightmodeLogo";
 import SwitchLogo from "@/utils/SvgIcons/CommonSvg/SwitchLogo";
 import { MobileFooter } from "./MobileFooter";
-
+import { useTheme } from 'next-themes'
 
 const LINKS = [
   {
@@ -38,8 +38,14 @@ const currentYear = new Date().getFullYear();
 
 export default function FooterBar() {
   const showDropdownForLink = "Legal";
+  const { theme, setTheme } = useTheme()
+  const handleThemeChange = (selectedTheme:string) => {
+    setTheme(selectedTheme);
+    console.log(selectedTheme)
+  };
+
   return (
-    <footer className="relative w-full bg-[#fafafa] border-t-[1px]  border-[#eaeaea] pt-20">
+    <footer className="relative w-full bg-[#fafafa] border-t-[1px]  border-[#eaeaea] pt-20 darkbackground border_class">
       <div className="mx-auto w-full max-w-7xl px-8">
         <div className="flex">
           <div className=" w-full sm:w-full md:w-full lg:w-3/12 xl:w-[30%] about_footer">
@@ -52,10 +58,10 @@ export default function FooterBar() {
           </div>
           <div className="grid grid-cols-3 justify-between gap-4 outer_footer_links">
             {LINKS.map(({ title, items }) => (
-              <ul key={title} className="mr-28 ml-2">
+              <ul key={title} className="mr-28 ml-2 darktext">
                 <Typography
                   variant="small"
-                  color="black"
+                  color="black darktext"
                   className="mb-3 font-medium  text-[#171717] text-sm"
                 >
                   {title}
@@ -122,17 +128,17 @@ export default function FooterBar() {
               </div>
             </div>
 
-            <div className="flex gap-2 text-blue-gray-900 sm:justify-center items-center border-2 p-2 rounded-3xl border-[#00000014]">
+            <div className="flex gap-2 text-blue-gray-900 sm:justify-center items-center border-2 p-2 rounded-3xl border-[#00000014] border_class">
 
-              <div className=" pl-2">
-                <DarkmodeLogo />
-              </div>
-              <div className=" pl-2">
-                <LightmodeLogo />
-              </div>
-              <div className=" pl-2 flex items-center">
-                <SwitchLogo />
-              </div>
+            <div className="pl-2" onClick={() => handleThemeChange('dark')}>
+              <DarkmodeLogo />
+            </div>
+            <div className="pl-2" onClick={() => handleThemeChange('light')}>
+              <LightmodeLogo />
+            </div>
+            <div className="pl-2 flex items-center" onClick={() => handleThemeChange('system')}>
+              <SwitchLogo />
+            </div>
             </div>
           </div>
         </div>

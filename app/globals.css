@@ -175,18 +175,6 @@ canvas {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   border-radius: 50%;
 }
-@media (prefers-color-scheme: light) {
-  body {
-    background: #FFF;
-    color: #333;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #333;
-    color: #FFF;
-  }
-}
 @-webkit-keyframes scroll {
   0% {
     -webkit-transform: translateX(0);
@@ -246,4 +234,96 @@ canvas {
 }
 .get_started_wrapper {
   margin: 0px 66px;
+}
+:root {
+  /* Your default theme */
+  --background: white;
+  --foreground: black;
+}
+
+[data-theme='dark'] {
+  --background: #000;
+  --foreground: white;
+  .invertlogo{
+    filter: invert(1);
+    opacity: .85;
+  }
+  .__className_20951f{
+    background: #000;
+  }
+  .darktext{
+    color: #eaeaea;
+  }
+  .darksvg{
+    background-color: #333;
+    border: none;
+  }
+  .darkbackground{
+    background: #111;
+  }
+  .header_buttons .log_in_btn {
+    background-color: #111;
+    color: #eaeaea;
+    border: 1px solid #333;
+    box-shadow: none;
+  }
+
+  .svgtransparent{
+    background-color: #111;
+    border: 1px solid #333;
+    border-radius: 8px;
+  }
+  .header_buttons .sign_up_btn{
+    background-color: #eaeaea;
+    box-shadow: none;
+    color: #111;
+  }
+  .darkbutton{
+    background-color: #eaeaea;
+    color: #111;
+  }
+  .indexdark{
+    background: #111;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    border-top: 1px solid #333;
+  } 
+  .darknav{
+     background-color: #000;
+     border: none;
+     
+  }
+  .border_class{
+    border-color:#666;
+  }
+  .border-right{
+    border-right-color: #666 ; 
+  }
+  .border_none{
+    border: none;
+  }
+  .vite_img img{
+    height: 150px;
+}
+.gradient_color{
+  background: linear-gradient(#222 30%, #019ae9 70%);
+}
+.darkcolor{
+  color: #111;
+}
+.svg-border{
+  border: 1px solid;
+  border-radius: 50%;
+}
+.gradient_color2{
+  background-image: linear-gradient(#222 30%, #ff0080 70%) ;
+}
+._darkdash{
+  border:1px solid #666;
+  border-radius: 8px;
+}
+.dark_border_background{
+  background-color: #161b22;
+
+}
 }
