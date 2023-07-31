@@ -6,7 +6,7 @@ const TrustedTeams = () => {
     <div className=" mx-32 trusted_partners">
       <section className=" items-center">
         <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4 trusted_team_heading">
-          <h2 className="mb-8  lg:mb-16 text-3xl font-extrabold  leading-tight text-center  text-xs tracking-[0.2rem] font-light uppercase text-grey font-semibold ">
+          <h2 className="mb-8  lg:mb-16 text-3xl font-extrabold  leading-tight text-center  text-xs tracking-[0.2rem] font-light uppercase dark-text-color text-grey font-semibold ">
             Trusted by the best frontend teams
           </h2>
           <div className="grid grid-cols-5 gap-8 text-gray-500 sm:gap-12  dark:text-gray-400 desktop_logos">

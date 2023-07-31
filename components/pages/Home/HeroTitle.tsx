@@ -4,13 +4,12 @@ import * as React from 'react'
 import "@/app/globals.css";
 import "./HomeStyle.css"
 import HeaderBar from '../Header/HeaderBar';
-// import { Button } from '@material-tailwind/react';
 
 
 import TrustedTeams from './TrustedTeams';
-import ExploreVercel from './ExploreVercel';
+import ExploreVercel from './ExploreVercel/page';
 import WorksFrameworks from './WorksFrameworks';
-import IterateTeam from './IterateTeam';
+import IterateTeam from './IterateTeam/page';
 import Counter from './Counter';
 import VercelJourney from './VercelJourney';
 import Globe from './Globe';
@@ -77,12 +76,12 @@ const HeroTitle = () => {
                     </h1>
 
                     <h2 className="text-2xl flex-row  darkColor">
-                        <div className="py-2 flex justify-center text-center hero_description">Vercel's frontend cloud gives developers the frameworks, workflows,<br /> and infrastructure to build a faster, more personalized Web.</div>
+                        <div className="py-2 flex justify-center text-center hero_description dark-text-color">Vercel's frontend cloud gives developers the frameworks, workflows,<br /> and infrastructure to build a faster, more personalized Web.</div>
 
                     </h2>
 
                     <div className="outer_btns mt-12 flex justify-center gap-7">
-                        <button className=" w-48 h-12 text-white font-medium bg-vi  rounded-lg text-lg  font-sans flex items-center justify-center gap-3 hover: bg-zinc-900 hover:bg-zinc-700 bg-black darkbutton">
+                        <button className=" deploying_btn w-48 h-12 text-white font-medium bg-[#171717] rounded-lg text-lg  font-sans flex items-center justify-center gap-3 hover: bg-zinc-900 hover:bg-zinc-700 bg-black darkbutton">
                             <svg aria-label="Vercel Logo" fill="currentColor" viewBox="0 0 75 65" height="15.6" width="18"><path d="M37.59.25l36.95 64H.64l36.95-64z"></path>
                             </svg>
                             Start Deploying

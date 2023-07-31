@@ -27,7 +27,7 @@ export function NavbarDefault() {
         color="#666"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center dark-white-color">
           Home
         </a>
       </Typography>
@@ -37,7 +37,7 @@ export function NavbarDefault() {
         color="#666"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center dark-subtitle-color">
          Integrations
         </a>
       </Typography>
@@ -47,7 +47,7 @@ export function NavbarDefault() {
         color="#666"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center dark-subtitle-color">
          Customers
         </a>
       </Typography>
@@ -57,7 +57,7 @@ export function NavbarDefault() {
         color="#666"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center dark-subtitle-color">
           Enterprise
         </a>
       </Typography>
@@ -67,7 +67,7 @@ export function NavbarDefault() {
         color="#666"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center dark-subtitle-color">
           Pricing
         </a>
       </Typography>
@@ -77,7 +77,7 @@ export function NavbarDefault() {
         color="#666"
         className="p-1 font-normal hidden contact_li"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center dark-subtitle-color">
         Contact
         </a>
       </Typography>
@@ -85,7 +85,7 @@ export function NavbarDefault() {
   );
  
   return (
-    <Navbar className=" darknav navbar mx-auto max-w-screen-xl py-4 px-5 lg:px-0 lg:py-4 shadow-none md:px-10 ">
+    <Navbar className=" darknav navbar mx-auto max-w-screen-xl py-4 px-5 lg:px-0 lg:py-4 shadow-none md:px-4 ">
       <div className="container text-blue-gray-900 px-0">
         <div className="navbar_links flex justify-between">
             <div className="logo_links flex items-center gap-2 invertlogo">

@@ -14,7 +14,7 @@ const WorksFrameworks = () => {
   return (
     <div>
       <div className="works_frameworks mb-16">
-        <h2 className="mb-6  lg:mb-6 text-3xl font-extrabold  leading-tight text-center  text-xs tracking-[0.2rem] font-light uppercase text-grey font-semibold ">
+        <h2 className="mb-6  lg:mb-6 dark-text-color text-3xl font-extrabold  leading-tight text-center  text-xs tracking-[0.2rem] font-light uppercase text-grey font-semibold ">
           WORKS WITH 30+ FRAMEWORKS
         </h2>
         <div className="logos_framework flex items-center justify-center flex-wrap">

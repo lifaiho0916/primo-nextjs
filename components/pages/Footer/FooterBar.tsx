@@ -72,7 +72,7 @@ export default function FooterBar() {
                       as="a"
                       href="#"
                       color="gray"
-                      className="py-1.5 font-normal transition-colors hover:text-blue-gray-900 text-sm"
+                      className="py-1.5 font-normal transition-colors hover:text-blue-gray-900 text-sm "
                     >
                       {link}
                     </Typography>
@@ -117,9 +117,9 @@ export default function FooterBar() {
             &copy; {currentYear} Vercel Inc.
           </Typography>
 
-          <div className=" flex w-full flex-col items-center justify-center   border-blue-gray-50 py-4 md:flex-row md:justify-between items-center gap-[20px] p-0">
+          <div className=" footer_logos flex w-full flex-col items-center justify-center   border-blue-gray-50 py-4 md:flex-row md:justify-between items-center gap-[20px] p-0">
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 social_logos">
               <div>
                 <GithubLogo />
               </div>
@@ -128,7 +128,7 @@ export default function FooterBar() {
               </div>
             </div>
 
-            <div className="flex gap-2 text-blue-gray-900 sm:justify-center items-center border-2 p-2 rounded-3xl border-[#00000014] border_class">
+            <div className="theme_logo flex gap-2 text-blue-gray-900 sm:justify-center items-center border-2 p-2 rounded-3xl border-[#00000014] border_class">
 
             <div className="pl-2" onClick={() => handleThemeChange('dark')}>
               <DarkmodeLogo />

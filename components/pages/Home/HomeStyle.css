@@ -47,42 +47,83 @@
         left: -5px;
     }
 }
+
+@media screen and (max-width:1024px){
+    .hero_tittle_section h1{
+        font-size: 5rem;
+    }
+    .outer-hero {
+        padding-top: 140px;
+    }
+    .trusted_partners{
+        margin: 0 41px;
+    }
+    .hero_tittle_section h2{
+        line-height: 1.6em!important;
+        font-weight: 400;
+        font-size: 1.25rem;
+        letter-spacing: -.02em;
+        text-align: center;
+        max-width: 740px;
+        width: 100%;
+        margin: 0 auto 64px;
+    }
+    .outer_btns {
+        margin: 0 auto 96px;
+    }
+    .trusted_team_heading {
+        padding: 0;
+    }
+    .trusted_team_heading h2{
+        margin-bottom: 48px;
+    }
+}
+
+
+
+
+
+
 @media screen and (max-width:991px) {
     .outer-hero {
         padding-top: 0;
-        padding: 50px 90px 0px;
+        padding: 192px 100px 0px;
         position: relative;
         z-index: -1;
     }
     .outer-hero .hero_tittle_section  h1 {
-        font-size: 5rem;
-        line-height: 80px;
+        font-size: 8.7rem;
+        line-height: 1;
         flex-wrap: wrap;
     }
-    .outer-hero .hero_tittle_section h2{
-        font-size: 1.1rem;
+    .outer-hero .hero_tittle_section h2 {
+        font-size: 1.2rem;
         line-height: 32px;
+        padding: 20px 0px;
     }
     .outer-hero .hero_tittle_section h2 br{
         display: none;
     }
-    .outer-hero .hero_tittle_section button{
+    .outer-hero .hero_tittle_section button {
         gap: 0.25rem;
-        font-size: 0.75rem;
-        margin-bottom: 12px;
+        font-size: 17px;
+        margin-bottom: 27px;
+    }
+    .hero_tittle_section {
+        padding: 0;
     }
     .trusted_partners{
         margin: 0;
         padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 110px;
     }
     .build_inspiration_heading .build_inspiration_heading1 {
         margin-bottom: 0.25rem;
     }
-    .outer-hero  .outer_btns{
-        margin-top: 0.625rem;
+    .outer-hero  .outer_btns {
+        margin-top: 1.625rem;
         gap: 0.75rem;
-        
+        margin-bottom: 1.625rem;
     }
     .build_inspiration_heading .build_heading2{
         font-size: 1.5rem;
@@ -116,7 +157,7 @@
         margin-left: 8px;
     }
     .develop_demo .develop_demo_benefits {
-        padding-top: 180px;
+        padding-top: 260px;
     }
     .develop_demo_benefits_item .icon_demo_benefits\?_item {
         margin: auto;
@@ -125,14 +166,31 @@
     }
     .logos_framework div{
         margin: 13px 0px;
+        width: 11%;
     }
     .works_frameworks {
         margin-bottom: 41px;
-        margin-top: 20px;
+        margin-top: 40px;
     }
     .build_inspiration_heading h2 {
-        font-size: 46px;
-        line-height: 56px;
+        font-size: 63px;
+        line-height: 76px;
+    }
+    .preview_section .build_inspiration_heading h2 {
+        text-align: center;
+        margin: 0 0 24px;
+        font-weight: 700;
+        letter-spacing: -.05em;
+        font-size: 3.75rem;
+    }
+    .build_inspiration_heading h4{
+        font-size: 2rem;
+        letter-spacing: -.05em;
+        margin: 0;
+        font-weight: 700;
+    }
+    .preview_section .develop_demo_benefits_item p {
+        line-height: 29px;
     }
     .develop_demo_benefits_item .line_path{
         display: block;
@@ -173,12 +231,6 @@
     .preview_messages_content p {
         text-align: left;
     }
-    
-    .develop_demo_benefits_item p{
-      margin-bottom: 30px;
-      font-size: 19px;
-      line-height: 29px;    
-    };
     .graphic_review .window_with_tabs {
         margin: 0;
         
@@ -199,11 +251,11 @@
         margin: auto;
     }
     .ship_section_heading h2 {
-        font-size: 42px;
-        text-wrap: balance;
-        display: inline-block;
-        margin-bottom: 0;
-        line-height: 50px;
+        text-align: center;
+        margin: 0 0 24px;
+        font-weight: 700;
+        letter-spacing: -.05em;
+        font-size: 3.75rem;
     }
     .outer_delight_visitor_section .section_content {
         width: 100%;
@@ -218,9 +270,32 @@
     }
     .outer_delight_visitor_section .section_content h5{
         font-size: 22px;
+        font-weight: 600;
+    letter-spacing: -.05em;
+    margin: 0 0 8px;
+    }
+    .ship_section_heading  p.sub-heading {
+        line-height: 2rem;
+    letter-spacing: -0.020625rem;
+    font-size: 22px;
     }
     .ship_section_item .icon_demo_benefits\?_item {
         margin: auto;
+        margin-bottom: 12px;
+    }
+    .clone_template h5{
+        text-align: center;
+    }
+    .clone_link {
+        text-align: center;
+    }
+    p.clone_content{
+        text-align: center;
+    }
+    .delight_content {
+        width: 70%;
+        margin: auto;
+        color: #666;
     }
     
     .ship_section_item {
@@ -228,6 +303,8 @@
     }
     .outer_delight_visitor_section {
         margin-bottom: 26px;
+        flex-wrap: wrap;
+        padding-top: 0;
     }
     .counters .counter_content {
         border: 0;
@@ -243,7 +320,10 @@
         padding-bottom: 50px;;
     }
     .Import_Git_Repository .Import_content {
-        padding: 5px;
+        padding: 65px;
+    }
+    .get_started_button_information {
+        margin-top: 50px;
     }
     .Import_link a {
         font-size: 13px;
@@ -253,43 +333,55 @@
         padding: 9px;
         border: none;
     }
+    .ship_section_item p {
+        width: 71%;
+        margin: auto;
+    }
     .framework_inner_card a img {
-        height: auto;
+        height: 170px;
     }
-    .outer_delight_visitor_section{
-        flex-wrap: wrap;
-    }
+    
     .globe_section{
-        margin-top: 50px;
+        margin-top: 90px;
     }
     .counter_section{
-        margin-top: -170px;
+        margin-top: -500px;
         position: relative;
     }
     .button_content .text_hide{
         display: none;
     }
-    .text_hide{
-        display: none;
+    .Import_Git_Repository h5{
+        text-align: center;
     }
+    
     .develop_demo .develop_demos_window .code_editor {
         margin: auto;
     }
     .outer_window  {
         margin: auto;
+        width: 75%;
+    }
+    .message-blue-box p {
+        text-align: left;
     }
     .outer_preview_content {
         margin: auto;
     }
-    .graphic_review{
+    .graphic_review {
         margin: auto;
         margin-top: 21px;
+        width: 76%;
+        padding-top: 40px;
     }
     .Import_Git_Repository {
         width: 70%;
     }
     .clone_template {
         width: 70%;
+        background: #fafafa;
+        border: 1px solid #ccc;
+        padding: 20px;
     }
     .slider-section{
         display: block;
@@ -317,7 +409,7 @@
     padding-top: 20px;
    }
     .ship_anchor{
-        display: flex;
+        display: initial;
     }
     .get_started_wrapper {
         margin: 0px;
@@ -348,6 +440,14 @@
     .branch_section{
         width: 80%;
     }
+    .social_logos{
+        justify-content: center;
+    }
+    .footer_logos {
+        display: grid;
+        justify-content: center;
+    }
+    
 }
 
 @media screen and (max-width:768px){
@@ -356,21 +456,56 @@
     }
     .outer-hero .hero_tittle_section  h1 {
         font-size: 6rem;
-        line-height: 100px;
+        flex-direction: column;
+        display: flex;
+        margin-bottom: 40px;
     }
-    .outer-hero .hero_tittle_section h2{
-        padding: 20px 0px 30px;
+    .outer-hero .hero_tittle_section h2 {
+        padding: 0;
         font-size: 18px;
+        width: 100%;
+        max-width: 93%;
+        font-weight: 400;
+        font-size: 1.25rem;
+        letter-spacing: -.02em;
+        text-align: center;
+        max-width: 740px;
+        width: 100%;
+        margin: 0 auto 64px;
     }
-    .trusted_team_heading h2{
-        padding-bottom: 0;
+    .build_inspiration_heading p{
+        max-width: 740px;
+        width: 100%;
+        margin: 0 auto 96px;
+    }
+    .develop_demo {
+        padding-top: 0px;
+        margin-bottom: 24px;
+    }
+    .outer-hero .outer_btns{
+        margin-bottom: 96px;
+       padding: 0;
+    }
+    .trusted_team_heading {
+        padding: 0px 0px;
     }
     .trusted_partners {
-        padding-bottom: 130px;
+        padding-bottom: 8rem;
+        padding-top: 0px;
+    }
+    .build_inspiration h4 {
+        font-size: 2rem;
+        letter-spacing: -.05em;
+        margin: 0;
+        font-weight: 700;
     }
     .build_inspiration_heading h2 {
-        font-size: 60px;
-        line-height: 66px;
+        text-align: center;
+        margin: 0 0 24px;
+        font-weight: 700;
+        letter-spacing: -.05em;
+        font-size: 3.75rem;
+        text-wrap: balance;
     }
     .window_screen #code-container {
         font-size: 17px;
@@ -384,35 +519,124 @@
     }
     .develop_demo .develop_demo_benefits {
         padding-top: 240px;
+        margin-bottom: 64px;
+        text-align: center;
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 240px 0px 0px 0px;
     }
-    .develop_demo_benefits_item p {
-        margin-bottom: 30px;
-        font-size: 19px;
-        line-height: 28px;
-        letter-spacing: -0.02em;
-        padding: 0px 46px;
+    .develop_demo_benefits_item {
+        padding: 0;
+        margin-bottom: 64px;
     }
+    .develop_demo_benefits_item h5{
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: -.05em;
+        margin: 0 0 8px;
+    }
+   
     .logos_framework div {
         width: 11%;
     }
     .preview_tittle{
         font-size: 56px;
     }
-    .push_section p {
-        margin: 6px 20px 30px;
+    .delight_content {
+        width: 77%;
+        margin: auto;
     }
+    .review_ui p {
+        margin: auto;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
     .outer_window{
         width: 80%;
+        margin-top: 20px;
+    }
+    .preview_section .develop_demo_benefits_item p {
+        margin: 0;
+        font-size: 16px;
+    }
+    .preview_messages_content p {
+        text-align: end;
     }
     .window_screen{
-        height: 250px;
+        height: 210px;
+    }
+    .develop_demo_benefits_item .line_path .div_gradient{
+        height: 6rem;
+    }
+    .main_outer_wrapper_item_section .preview-item_wrapper {
+        padding-top: 20px;
     }
     .previus_push_comment{
         padding-left: 30px;
     }
     .branch_section{
-        width: 80%;
+        width: 480px;
+        max-width: 100%;
+        text-align: center;
+        padding: 24px;
+        margin: auto;
+
     }
+    .develop_demo_benefits_item.review_ui{
+        width: 480px;
+        max-width: 100%;
+        text-align: center;
+        padding: 24px;
+        margin: auto;
+    }
+    .develop_demo_benefits_item.review_ui a{
+        font-size: 12px;
+    }
+    .graphic_review {
+        padding-top: 0;
+    }
+    .globe_section canvas{
+            width: 772px;
+            height: 700px;
+            transform: translateX(-69px);
+    }
+    .ship_section_item {
+        margin: 0px 80px 32px;
+    }
+    .clone_link a{
+        display: flex;
+        justify-content: center;
+    }
+    .works_frameworks {
+        margin-bottom: 64px;
+        margin-top: 0px;
+    }
+    .develop_demo_benefits_item.push_section {
+        width: 480px;
+        max-width: 100%;
+        text-align: center;
+        padding: 24px;
+        margin: auto;
+    }
+    .ship_section_heading h4{
+        font-size: 2rem;
+        letter-spacing: -.05em;
+        margin: 0;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+    .ship_section_heading h2{
+        text-align: center;
+        margin: 0 0 24px;
+        font-weight: 700;
+        letter-spacing: -.05em;
+        font-size: 3.75rem;
+        -webkit-background-clip: text;
+    
+    }
+    
 }
 
 
@@ -427,6 +651,10 @@
     }
     .outer-hero .hero_tittle_section button {
         font-size: 16px;
+        width: 100%;
+    }
+    .hero_tittle_section{
+        padding: 0;
     }
     .page-header {
         padding: 0;
@@ -441,9 +669,7 @@
     .develop_demo .develop_demos_window .commerce_website {
         left: 0;
     }
-    .globe_section{
-        transform: translateX(-180px);
-    }
+   
     .counter_section{
         margin-top: -390px;
     }
@@ -471,10 +697,11 @@
         margin: 0;
     }
     .graphic_review {
-        margin-top: 60px;
+        margin-top: 30px;
+        width: 100%;
     }
     .outer_delight_visitor_section .section_content{
-        padding: 0px 6px;
+        padding: 0px 0px;
     }
     .logos_framework div {
         width: 20%;
@@ -484,11 +711,19 @@
         margin: 0;
     }
     .hero_tittle_section .hero_description {
-        padding: 47px 0px;
+            padding: 0px 0px;
+            line-height: 1.6em!important;
+            font-weight: 400;
+            font-size: 1.25rem;
+            letter-spacing: -.02em;
+            text-align: center;
+            max-width: 740px;
+            width: 100%;
+            margin: 0 auto 64px;
+       
     }
     .trusted_partners {
         padding-bottom: 80px;
-        padding-top: 42px;
     }
     .build_inspiration_heading h2 {
         font-size: 38px;
@@ -497,36 +732,52 @@
         text-wrap: balance;
     }
     .build_inspiration_heading p {
-        padding: 0px 5px;
-        font-weight: 300;
+        max-width: 740px;
+        width: 100%;
+        margin: 0 auto 96px;
+        padding: 0;
+        font-size: 19px;
     }
-    .develop_demo {
-        padding-top: 72px;
+    .window_with_tabs  span{
+        padding: 8px;
+    }
+    .main_outer_wrapper_item_section .preview-item_wrapper {
+        padding-top:0px;
     }
     .develop_demo .develop_demos_window .commerce_website .window_with_tabs {
-        padding: 3px 26px 3px 90px;
+        padding: 3px 26px 3px 45px;
         gap: 60px;
+        margin: 0;
     }
     .develop_demo_benefits_item p {
-        font-size: 16px;
+        padding: 0;
+        letter-spacing: -.02em;
+        margin: 0;
+        font-weight: 400;
     }
     .works_frameworks {
         margin-bottom: 41px;
         margin-top: 40px;
     }
-    .develop_demo_benefits_item h5 {
-        font-size: 20px;
-        letter-spacing: 0px;
+    .develop_demo_benefits_item h5{
+        font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -.05em;
+    margin: 0 0 8px;
     }
     .preview-item_wrapper .window_screen {
         margin-top: 40px;
         height: 250px;
     }
+    .develop_demos_window {
+        margin-bottom: 51px;
+    }
     .stack_stack{
         justify-content: center;
     }
-    .previus_push_comment{
-        margin-left: 59px;
+    .previus_push_comment {
+        margin-left: 0;
+        padding: 0;
     }
     .preview_messages_content p {
         text-align: center;
@@ -535,6 +786,7 @@
         font-size: 35px;
         justify-content: center;
         display: flex;
+        line-height: 37px;
     }
     .outer_delight_visitor_section .section_content h5 {
         text-wrap:balance;
@@ -550,7 +802,7 @@
         padding: 0px 30px;
     }
     .Import_Git_Repository .Import_content {
-        padding: 15px;
+        padding: 24px;
     }
     .begin_your_journey .container {
         padding: 0;
@@ -573,5 +825,70 @@
         padding-top: 20px !important;
         margin: 0;
     }
+    .outer-hero .hero_tittle_section  h1 {
+        font-size: 4.5rem;
+        line-height: 1;
+        padding-top: 20px;
+        letter-spacing: -.06em;
+        margin: 0 0 40px;
+    }
+    .outer-hero .hero_tittle_section h2 {
+        padding: 0px 0px 0px;
+        font-size: 19px;
+    }
+    .outer-hero  .outer_btns {
+        display: block;
+    }
+    .develop_demo .develop_demo_benefits {
+        padding: 180px 0px 0px;
+    }
+    .preview_section .build_inspiration_heading h2 {
+        text-align: center;
+        margin: 0 0 24px;
+        font-weight: 700;
+        letter-spacing: -.05em;
+        font-size: 2.75rem;
+        line-height: 1;
+    }
+    .outer_window {
+        width: 100%;
+    }
+    .previus_push_comment hr {
+        margin-left: 33px;
+    }
+    .branch_section {
+        width: 100%;
+    }
+    .outer_preview_content {
+        width: 100%;
+    }
+    .framework_inner_card a img {
+        height: 98px;
+    }
+    .clone_link {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .review_ui p {
+        width: 100%;
+        margin-bottom: 30px !important;
+    }
+    .text_hide{
+        display: none;
+    }
+    .ship_section_item{
+        margin: 0;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+    .ship_anchor{
+        display: flex;
+        align-items: center;
+    }
+    .delight_content {
+        width: 100%;
+        margin: auto;
+    }
+        
     
 }

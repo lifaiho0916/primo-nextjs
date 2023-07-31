@@ -51,7 +51,7 @@ export function MobileFooter() {
   return (
     <>
        <div>
-      <footer className="relative w-full bg-[#fafafa] pt-[20px]">
+      <footer className="relative w-full bg-[#fafafa] pt-[20px] darkbackground">
         <div className="mx-auto w-full max-w-7xl ">
           <div className="">
             

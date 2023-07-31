@@ -11,16 +11,16 @@ const VercelJourney = () => {
     <div className="begin_your_journey py-[60px]">
       <div className="container">
         <div className="get_started_title">
-          <h6 className="text-center uppercase text-xs tracking-[0.2rem] text-grey font-bold my-12">
+          <h6 className="text-center uppercase text-xs tracking-[0.2rem] text-grey font-bold dark-text-color my-12">
             Begin Your Vercel Journey
           </h6>
         </div>
         <div className="get_started_wrapper flex justify-center gap-x-12">
-          <div className="Import_Git_Repository border-[1px] border-[#eaeaea] shadow-[0_8px_30px_rgba(0,0,0,0.12)] rounded-s-md  p-8 w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[50%] border_class">
+          <div className="Import_Git_Repository dark_bordered border-[1px] border-[#eaeaea] shadow-[0_8px_30px_rgba(0,0,0,0.12)] rounded-s-md  p-8 w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[50%] border_class">
             <h5 className="text-2xl tracking-[-0.02rem] text-[#171717] mb-4 font-semibold darktext">
               Import Git Repository
             </h5>
-            <div className="Import_content border-[1px] border-[#eaeaea] text-center bg-[#fafafa] rounded-md p-12 darkbackground border_class">
+            <div className="Import_content border-[1px] dark_bordered border-[#eaeaea] text-center bg-[#fafafa] rounded-md p-12 darkbackground border_class">
               <p className="text-sm text-[#444] font-normal my-8 darktext">
                 Select a Git provider to import an existing project from a Git
                 Repository.
@@ -64,7 +64,7 @@ const VercelJourney = () => {
             <h5 className="text-2xl tracking-[-0.02rem] text-[#171717] font-semibold darktext"> 
               Clone Template
             </h5>
-            <p className="clone_content text-sm text-[#666] font-normal leading-relaxed mt-2 mb-3">
+            <p className="clone_content text-sm text-[#666] dark-text-color font-normal leading-relaxed mt-2 mb-3">
               Alternatively, get started with a template
             </p>
             <div className="clone_framework_cards grid grid-cols-2">
@@ -133,7 +133,7 @@ const VercelJourney = () => {
               </div>
             </div>
             <div className="clone_link mt-6">
-              <a href="#" className="text-sm text-[#444444]">
+              <a href="#" className="text-sm text-[#444444] dark-text-color">
                 Browse All Templates →
               </a>
             </div>

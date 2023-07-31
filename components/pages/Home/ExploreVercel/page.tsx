@@ -4,30 +4,13 @@ import Testing from "@/utils/SvgIcons/CommonSvg/Testing";
 import JsxWindow from "@/utils/SvgIcons/CommonSvg/JsxWindow";
 import Reverse from "@/utils/SvgIcons/CommonSvg/Reverse";
 import Typewriter from "typewriter-effect";
-import CodeTypewriter from "./CodeTypewriter";
+import CodeTypewriter from "../CodeTypewriter";
+import Heading from "./Heading";
 
-const ExploreVercel = () => {
+const page = () => {
   return (
     <div className="build_inspiration">
-      <div className="build_inspiration_heading">
-        <span className="mb-8 lg:mb-12  leading-tight text-center text-xs tracking-[0.2rem] uppercase text-grey font-semibold flex justify-center">
-          EXPLORE THE VERCEL WAY
-        </span>
-        <span className="w-px flex  bg-gradient-to-b from-[#fff] to-[#019ae9] h-28 text-center m-auto gradient_color"></span>
-        <span className="darkcolor bg-gradient-to-r from-[#007cf0] to-[#00dfd8] w-10 h-10 rounded-full flex m-auto text-white items-center justify-center">
-          1
-        </span>
-        <h4 className="mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#007cf0] to-[#00dfd8] text-4xl font-bold text-center pt-4">
-          Develop
-        </h4>
-        <h2 className="font-bold text-black text-6xl text-center mb-6 darktext">
-          Build when inspiration strikes
-        </h2>
-        <p className="text-center text-[#666]  text-[20px] w-[53%] font-normal m-auto mb-24">
-          Free developers from time-consuming, unnecessary processes that slow
-          your work, so you and your team can focus on creating.
-        </p>
-      </div>
+      <Heading />
 
       <div>
         <div className="develop_demo flex flex-wrap">
@@ -48,7 +31,7 @@ const ExploreVercel = () => {
                       </span>
                     </div>
                   </div>
-                <CodeTypewriter />
+                  <CodeTypewriter />
                 </div>
                 <div className="svgtransparent commerce_website shadow-[0_8px_30px_rgba(0,0,0,.12)]  border-[#eaeaea] bg-[#fff] w-full absolute left-[10%] top-40">
                   <div className="window_top_bar flex items-center border-b-2 p-1.5 ">
@@ -82,7 +65,7 @@ const ExploreVercel = () => {
                 <div className="svgtransparent icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center">
                   <DevelopIcon />
                 </div>
-                <h5 className="text-black text-[22px] font-semibold mt-2 darktext">
+                <h5 className="text-black text-[22px] font-semibold mt-2 dark-text-color">
                   The complete toolkit for the Web
                 </h5>
                 <p className="text-[#666] leading-7 font-normal text-[15px]">
@@ -98,7 +81,7 @@ const ExploreVercel = () => {
                 <div className="svgtransparent icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center">
                   <Backened />
                 </div>
-                <h5 className="text-black text-[22px] font-semibold mt-2 darktext">
+                <h5 className="text-black text-[22px] font-semibold mt-2 dark-text-color">
                   <span>Easy integration with your backend</span>
                 </h5>
                 <p className="text-[#666] leading-7 font-normal text-[15px]">
@@ -113,7 +96,7 @@ const ExploreVercel = () => {
                 <div className="svgtransparent icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center">
                   <Testing />
                 </div>
-                <h5 className="text-black text-[22px] font-semibold mt-2 darktext">
+                <h5 className="text-black text-[22px] font-semibold mt-2 dark-text-color">
                   <span>End-to-end testing on Localhost</span>
                 </h5>
                 <p className="text-[#666] leading-7 font-normal text-[15px]">
@@ -130,4 +113,4 @@ const ExploreVercel = () => {
     </div>
   );
 };
-export default ExploreVercel;
+export default page;
