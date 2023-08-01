@@ -1,3 +1,4 @@
+import Zapier from "@/utils/SvgIcons/CommonSvg/Zapier";
 import { SliderTrack } from "@radix-ui/react-slider";
 import LogoSlider from "./Slider";
 
@@ -24,7 +25,7 @@ const TrustedTeams = () => {
               <img src="/assets/svg/ebay.svg" className="invertlogo"></img>
             </a>
             <a href="#" className="flex justify-center items-center">
-              <img className="w-24 invertlogo" src="/assets/svg/zapier.svg"></img>
+              < Zapier/>
             </a>
           </div>
 

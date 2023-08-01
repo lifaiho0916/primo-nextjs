@@ -15,6 +15,12 @@
     margin-bottom: 8px;
 
 }
+.footer_navigation button:hover {
+    color: #fff;
+}
+.footer_navigation button{
+    font-size: 18px;
+}
 .header_buttons span {
     text-transform: capitalize;
 }
@@ -31,20 +37,26 @@
 .develop_demo_benefits p{
     font-size: 16px;
 }
+.outer_delight_visitor_section{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
 
 @media screen and (max-width:1180px){
     .center_path_lines .div_line{
-        top:174px;
+        top:146px;
+        height: 564px;
     }
-    .center_path_lines .div_circle{
-        top:160px;
-        left: -6px;
+    .center_path_lines .div_circle {
+        top: 132px;
+        left: 50px;
     }
     .div_circle2 {
-        left: -5px;
+        left: 1px;
     }
     .div_circle3{
-        left: -5px;
+        left: 1px;
     }
 }
 
@@ -76,6 +88,24 @@
     }
     .trusted_team_heading h2{
         margin-bottom: 48px;
+    }
+    .outer_footer_links {
+        margin-left: 11px;
+    }
+    .center_path_lines .div_circle {
+        top: 93px;
+        left: 35px;
+    }   
+    .center_path_lines .div_line {
+        top: 107px;
+        height: 549px;
+    }
+    .vite_img img {
+        height: 95px;
+    }
+    .div_circle2 {
+        left: 1px;
+        top: 38px;
     }
 }
 
@@ -340,7 +370,9 @@
     .framework_inner_card a img {
         height: 170px;
     }
-    
+    .vite_img img{
+        height: 170px;
+    }
     .globe_section{
         margin-top: 90px;
     }
@@ -476,7 +508,7 @@
     .build_inspiration_heading p{
         max-width: 740px;
         width: 100%;
-        margin: 0 auto 96px;
+        margin: 0 auto 46px;
     }
     .develop_demo {
         padding-top: 0px;
@@ -518,13 +550,12 @@
         position: relative;
     }
     .develop_demo .develop_demo_benefits {
-        padding-top: 240px;
         margin-bottom: 64px;
         text-align: center;
         max-width: 480px;
         margin-left: auto;
         margin-right: auto;
-        padding: 240px 0px 0px 0px;
+        padding: 280px 0px 0px 0px;
     }
     .develop_demo_benefits_item {
         padding: 0;
@@ -888,6 +919,17 @@
     .delight_content {
         width: 100%;
         margin: auto;
+    }
+     .vite_img img{
+        height: 100px;
+     }
+     .ship_section_item p {
+        width: auto;
+    }
+    .ship_section_heading  p.sub-heading {
+        line-height: 1.5rem;
+        letter-spacing: -0.020625rem;
+        font-size: 1.25rem;
     }
         
     

@@ -3,8 +3,11 @@ import * as React from 'react';
 import Image from 'next/image';
 import { MdHeadphones, MdShuffle, MdOutlineCode } from "react-icons/md";
 import "../globals.css";
+import '../../components/pages/Enterprises/Enterprise.css'
 import "@fontsource/space-grotesk";
 import { Badge } from "@/components/ui/badge";
+import EnterPriseHeroSection from '@/components/pages/Enterprises/HeroSection';
+import EnterpriseTestimonial from '@/components/pages/Enterprises/Testimonial';
  
 const data = [
     {
@@ -48,6 +51,13 @@ const data = [
 const Enterprise = () => {
     return (
         <>
+
+<EnterPriseHeroSection/>
+<EnterpriseTestimonial/>
+
+
+
+
           <div className="flex flex-col items-center">
             <Badge className='mt-3'>Support</Badge>
             <div className="text-[50px] font-bold tracking-[-.04em] pt-4">

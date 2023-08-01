@@ -8,6 +8,7 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import Logo from "./HeaderSvgIcons/Logo";
+import Link from "next/link";
  
 export function NavbarDefault() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -57,9 +58,9 @@ export function NavbarDefault() {
         color="#666"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center dark-subtitle-color">
+        <Link href="/enterprise" className="flex items-center dark-subtitle-color">
           Enterprise
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -85,7 +86,7 @@ export function NavbarDefault() {
   );
  
   return (
-    <Navbar className=" darknav navbar mx-auto max-w-screen-xl py-4 px-5 lg:px-0 lg:py-4 shadow-none md:px-4 ">
+    <Navbar className=" darknav navbar mx-auto  py-4 px-5 lg:px-0 lg:py-4 shadow-none md:px-4 rounded-none max-w-full ">
       <div className="container text-blue-gray-900 px-0">
         <div className="navbar_links flex justify-between">
             <div className="logo_links flex items-center gap-2 invertlogo">

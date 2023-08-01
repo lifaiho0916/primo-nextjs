@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <div className='flex justify-center items-center py-52'>
       <HeroTitle />
-      
     </div>
     
   );

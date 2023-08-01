@@ -22,10 +22,10 @@ const DelightVisitor = () => {
       <div className="outer_delight_visitor_section  mb-20 flex px-[20px] overflow-hidden py-5">
         <div className="section_content w-full sm:w-full md:w-1/2 lg:w-1/2 xl:w-[51%]">
           <div className="ship_section_heading grid">
-            <h5 className="text-[22px] font-semibold mb-3">
+            <h5 className="text-[22px] font-semibold mb-3 dark-white-color">
               Speed is critical to customers — and SEO
             </h5>
-            <p className="text-xl font-normal mb-3 sub-heading">
+            <p className="text-xl font-normal mb-3 sub-heading dark-white-color">
               Next.js and Vercel work together to deliver the best performance
               for your end users, while maintaining best-in-class SEO practices.
             </p>

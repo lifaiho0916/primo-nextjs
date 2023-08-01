@@ -53,12 +53,12 @@ export function MobileFooter() {
        <div>
       <footer className="relative w-full bg-[#fafafa] pt-[20px] darkbackground">
         <div className="mx-auto w-full max-w-7xl ">
-          <div className="">
+          <div className="footer_navigation">
             
-            <div className="grid grid-cols-1 justify-between gap-4">
+            <div className="grid grid-cols-1 justify-between gap-4 ">
               {/* Loop through LINKS array and create accordions */}
               {LINKS.map(({ title, items }, index) => (
-                <Accordion key={title} open={open === index} className="mr-28 ml-2">
+                <Accordion key={title} open={open === index} className="mr-28 ">
                   <AccordionHeader onClick={() => handleOpen(index)}>{title}</AccordionHeader>
                   <AccordionBody>
                     <ul>

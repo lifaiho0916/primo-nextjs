@@ -65,7 +65,7 @@ const page = () => {
                 <div className="svgtransparent icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center">
                   <DevelopIcon />
                 </div>
-                <h5 className="text-black text-[22px] font-semibold mt-2 dark-text-color">
+                <h5 className="text-black text-[22px] font-semibold mt-2 dark-white-color">
                   The complete toolkit for the Web
                 </h5>
                 <p className="text-[#666] leading-7 font-normal text-[15px]">
@@ -81,7 +81,7 @@ const page = () => {
                 <div className="svgtransparent icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center">
                   <Backened />
                 </div>
-                <h5 className="text-black text-[22px] font-semibold mt-2 dark-text-color">
+                <h5 className="text-black text-[22px] font-semibold mt-2 dark-white-color">
                   <span>Easy integration with your backend</span>
                 </h5>
                 <p className="text-[#666] leading-7 font-normal text-[15px]">
@@ -96,7 +96,7 @@ const page = () => {
                 <div className="svgtransparent icon_demo_benefits?_item bg-[#fafafa] border-[1px] rounded-md w-10 h-10 justify-center flex items-center">
                   <Testing />
                 </div>
-                <h5 className="text-black text-[22px] font-semibold mt-2 dark-text-color">
+                <h5 className="text-black text-[22px] font-semibold mt-2 dark-white-color">
                   <span>End-to-end testing on Localhost</span>
                 </h5>
                 <p className="text-[#666] leading-7 font-normal text-[15px]">
