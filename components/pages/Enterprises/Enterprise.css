@@ -60,9 +60,25 @@
 }
 
 
-
-
-
+.testimonial_testimonial_stack .testimonial_quote{
+    text-wrap:balance;
+}
+.workflow_deployments::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    z-index: 10;
+    background: linear-gradient(transparent,#fff);
+}
+.workflow_workflow_workflowCard__B_JoN:hover {
+    border-color: #222;
+}
+.workflow_card_footerlink span:hover{
+    color: #222;
+}
 
 
 
@@ -79,5 +95,20 @@
     }
     .outer_footer_links{
         display: none;
+    }
+    .textimonial_outer_section {
+        flex-wrap: wrap;
+    }
+    .hero_visual_logo {
+        display: none;
+    }
+    .workflow_cardsgrid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .hero_hero_outer{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .cardvisual_comment_wrapper {
+        width: 100%;
     }
  }
