@@ -9,6 +9,10 @@
     margin-bottom: 64px;
     font-size: 24px;
 } */
+
+html,body{
+    overflow-x: hidden !important;
+}
 .develop_demo_benefits_item h5{
     text-wrap :balance;
     line-height: 29px;
