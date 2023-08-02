@@ -7,9 +7,12 @@ import Zapier from "@/utils/SvgIcons/CommonSvg/Zapier";
 
 const EnterPriseHeroSection = () => {
   return (
-    <div className="hero_section min-h-[800px] flex justify-center items-center relative max-h-[900px]">
+    <div className="hero_section min-h-[800px] flex justify-center items-center relative max-h-[900px] overflow-hidden">
       <div className="giest_wrapper">
-        <div className="hero_hero_outer grid grid-cols-[1.4fr_1fr] grid-rows-1 relative ">
+
+
+        
+         <div className="hero_hero_outer grid grid-cols-[1.4fr_1fr] grid-rows-1 relative ">
           <div className="hero_Content mt-9 pointer-events-none relative h-100% grid gap-[72px]">
             <div className="hero_hero_content grid gap-6">
               <h1 className="hero_heading sm:text-[52px] xl:text-[64px] font-bold tracking-tighter text-[#232323] leading-[1.2] dark-white-color">
@@ -42,10 +45,11 @@ const EnterPriseHeroSection = () => {
           </div>
 
           <div className="hero_visual_logo relative mt-16 ">
-            <div className="logo_showcase absolute grid grid-cols-3 grid-rows-3 gap-20 list-none w-[720px] top-[-140px] left-[-80px]">
-             
-                <li className="flex items-center justify-center">
-                  <div className="logo_showcase">
+            <div className="logo_showcase_outer absolute grid grid-cols-3 grid-rows-3 gap-8 list-none">
+            <div className="logo_showcase_gradient"></div>
+                <li className=" logo_showcase flex items-center justify-center h-32">
+                  
+                  <div className="logo_showcase_img">
                     <EbayLogo />
                   </div>
                 </li>
@@ -124,7 +128,7 @@ const EnterPriseHeroSection = () => {
               
             </div>
           </div>
-        </div>
+        </div> 
       </div>
     </div>
   );

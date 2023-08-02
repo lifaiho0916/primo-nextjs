@@ -931,6 +931,21 @@
         letter-spacing: -0.020625rem;
         font-size: 1.25rem;
     }
-        
-    
+}
+@media screen and (max-width:280px){
+    .develop_demo .develop_demos_window .commerce_website .window_with_tabs {
+        padding: 3px 16px 3px 11px;
+        gap: 0px;
+        margin: 0;
+    }
+    .graphic_review .window_with_tabs {
+        padding: 0;
+        gap: 0;
+    }
+    .graphic_review .window_with_tabs span {
+        padding: 5px;
+    }
+    .outer-hero .hero_tittle_section  h1 {
+        font-size: 3.5rem;
+    }
 }

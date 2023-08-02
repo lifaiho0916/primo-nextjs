@@ -1,4 +1,79 @@
- @media screen and (max-width:575px){
+
+.hero_Content::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    z-index: -1;
+    position: absolute;
+    overflow: hidden;
+    margin: 0;
+    pointer-events: none;
+    background: linear-gradient(90deg,#ffff 85%,transparent 100%);
+    display: block;
+    
+}
+.logo_showcase_outer{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3,16em);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.logo_showcase_outer li{
+    position: relative;
+    height: 8em;
+}
+.logo_showcase_outer li  .logo_showcase_img{
+    border-radius: inherit;
+    flex: 1 1;
+    z-index: 1;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    position: relative;
+    padding: 0 1.5rem;
+}
+ .logo_showcase_gradient{
+    position: absolute;
+    z-index: 5;
+    background: radial-gradient(transparent 0,#fff 100%),linear-gradient(180deg,#fff 0,transparent 10%,transparent 90%,var(--geist-background) 100%);
+    width: 100%;
+    height: 100%;
+ }
+ .logo_showcase {
+    z-index: 3;
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 0 1.5rem;
+    margin: 1px;
+    border-radius: inherit;
+    box-shadow: 0 12px 20px 4px rgba(#fff,.05);
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:575px){
     .mobile_footer{
         display: block;
     }

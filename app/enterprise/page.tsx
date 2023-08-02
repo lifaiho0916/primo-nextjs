@@ -8,6 +8,7 @@ import "@fontsource/space-grotesk";
 import { Badge } from "@/components/ui/badge";
 import EnterPriseHeroSection from '@/components/pages/Enterprises/HeroSection';
 import EnterpriseTestimonial from '@/components/pages/Enterprises/Testimonial';
+import EnterpriseIteration from '@/components/pages/Enterprises/Iteration';
  
 const data = [
     {
@@ -54,6 +55,7 @@ const Enterprise = () => {
 
 <EnterPriseHeroSection/>
 <EnterpriseTestimonial/>
+<EnterpriseIteration />
 
 
 
