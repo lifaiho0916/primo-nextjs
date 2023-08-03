@@ -5,7 +5,7 @@ import { NavbarDefault } from "./Navbar";
 const HeaderBar = () => {
     return (
         <header>
-    <nav className="darknav border-gray-200 py-0 dark:bg-gray-800 page-header fixed w-full max-w-full fixed z-[3]">
+    <nav className="darknav border-gray-200 py-0 dark:bg-gray-800 page-header fixed w-full max-w-full fixed z-[3] relative z-[999]">
             <NavbarDefault />
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             {/* <div className="flex header-navigation">

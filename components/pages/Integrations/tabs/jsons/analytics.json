@@ -1,0 +1,36 @@
+{
+    "analytics_data":[
+        {
+            "id":1,
+            "icon_path":"/assets/integration/analytics/Analytics.svg",
+            "title":"Split",
+            "tag":"Beta",
+            "subtitle":"No latency feature flags made easy"
+        },
+        {
+            "id":2,
+            "icon_path":"/assets/integration/analytics/launchDarkly.png",
+            "title":"LaunchDarkly",
+            "subtitle":"Access your flags in Vercel Edge Configs"
+        },
+        {
+            "id":3,
+            "icon_path":"/assets/integration/analytics/statsig.png",
+            "title":"Statsig",
+            "subtitle":"Statsig on Edge Config"
+        },
+        {
+            "id":4,
+            "icon_path":"/assets/integration/analytics/vercel.png",
+            "title":"Vercel Web Analytics",
+            "subtitle":"Privacy-friendly, first-party analytics"
+        },
+        {
+            "id":5,
+            "icon_path":"/assets/integration/analytics/happykit.png",
+            "title":"HappyKit",
+            "tag":"Beta",
+            "subtitle":"Feature Flags for your Next.js apps"
+        }
+    ]
+}

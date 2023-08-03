@@ -1,0 +1,63 @@
+/*================ Integration Desktop Serach Input and select code start Here ==================*/
+.Integration_serach_box:focus-within{box-shadow: 0 0 0 1px #00000057, 0 0 0 4px rgba(0,0,0,.16);}
+.Integration_serach_box:hover{box-shadow: 0 0 0 1px #00000057, 0 0 0 4px rgba(0,0,0,.16);}
+.Integration_user_select:focus-within{box-shadow: 0 0 0 1px #00000057, 0 0 0 4px rgba(0,0,0,.16);}
+.Integration_user_select:hover{box-shadow: 0 0 0 1px #00000057, 0 0 0 4px rgba(0,0,0,.16);}
+.Select_mobile_view select{appearance: none;-moz-appearance: none;}
+.Integration_serach_box input::placeholder {font-weight: 300;}
+.Integration_sidebar_info {flex: 0 0 210px;}
+.Integration_user_select{height: 40px;}
+.Integration_content {background-position: top center;background-size: 95%;}
+/*================ Integration Desktop Serach Input and select code end Here ==================*/
+/******* Resposnive start ************/
+/*================ Integration Responsive Media Query Start Here ==================*/
+
+@media only screen and (max-width: 1260px) {
+    .Integration_cards { max-width: 295px; width: 100%;}
+    .Integration_content{ background-position: center;}
+    /* .grid-cols-3 {grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid.grid-cols-3{ display: flex;flex-wrap: wrap; } */
+    .Integration_Page_Wrapper .container{padding-left: 24px; padding-right: 24px; }
+    .Integration_sidebar_info .sticky{ position: static;}
+}
+@media only screen and (max-width: 960px) {
+    .Integration_featured_image_content,
+    .Integration_Analytics_image_content,
+    .Integration_cms_image_content,.Integration_Repository_image_content,
+    .Integration_commerce_image_content,
+    .Integration_database_image_content,
+    .Integration_devtools_image_content,.Integration_monitor_image_content,
+    .Integration_message_image_content,
+    .Integration_observability_image_content,
+    .Integration_productivity_image_content,
+    .Integration_security_image_content,
+    .Integration_testing_image_content{
+        margin-bottom: 40px;
+    }
+    .Integration_sidebar_info{ max-width: 150px;flex: 0 0 150px; }
+    .Integration_sidebar_content_wrapper{column-gap: 24px;margin: 0;}
+}
+/* @media screen and (min-device-width: 800px) and (max-device-width: 835px) { 
+    .grid.grid-cols-3 {display: flex;flex-wrap: wrap; }
+} */
+@media only screen and (max-width: 800px) {
+    .Integration_sidebar_info{ max-width: 100%;flex: 0 0 100%; }
+    .Integration_sidebar_content_wrapper{flex-wrap: wrap;margin: 0;}
+    .Select_mobile_view {display: block;margin-bottom: 32px;}
+    .Integration_sidebar_menu {display: none;}
+    .Select_mobile_view{margin-top: 7px;}
+    select.select_values{width: 100%;}
+}
+
+@media only screen and (max-width: 767px) {
+    .Integration_Page_Wrapper .Integration_heading{font-size: 36px;line-height: 39px;letter-spacing: -.04em;text-align: center;}
+    .Integration_content{font-size: 20px;line-height: 26px;letter-spacing: -.03em;text-align: center; }
+    .Integration_section_title{ padding: 40px 0; }
+}
+/* @media only screen and (max-width: 662px) {
+    .grid-cols-3 { grid-template-columns: repeat(1, minmax(0, 1fr));}
+} */
+/*================ Integration Responsive Media Query Start Here ==================*/
+/******* Resposnive end ************/
+
+

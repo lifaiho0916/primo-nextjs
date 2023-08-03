@@ -1,0 +1,10 @@
+{
+    "productivity_data":[
+        {
+            "id":1,
+            "icon_path":"/assets/integration/product.svg",
+            "title":"Linear",
+            "subtitle":"Convert comments to Linear issues"
+        }
+    ]
+}

@@ -9,6 +9,9 @@ import { Badge } from "@/components/ui/badge";
 import EnterPriseHeroSection from '@/components/pages/Enterprises/HeroSection';
 import EnterpriseTestimonial from '@/components/pages/Enterprises/Testimonial';
 import EnterpriseIteration from '@/components/pages/Enterprises/Iteration';
+import EnterpriseTourSection from '@/components/pages/Enterprises/TourSection';
+import EnterpriseTrafficSpikes from '@/components/pages/Enterprises/TrafficeSpikes';
+
  
 const data = [
     {
@@ -56,23 +59,25 @@ const Enterprise = () => {
 <EnterPriseHeroSection/>
 <EnterpriseTestimonial/>
 <EnterpriseIteration />
+<EnterpriseTourSection/>
+<EnterpriseTrafficSpikes/>
 
 
 
-
-          <div className="flex flex-col items-center">
+        <div className='support_section geist_wrapper'>
+          <div className="support_section_outer flex flex-col">
             <Badge className='mt-3'>Support</Badge>
-            <div className="text-[50px] font-bold tracking-[-.04em] pt-4">
+            <div className="text-[50px] font-bold tracking-[-.04em] pt-4 support_section_heading">
                 We build the tools. You build the rest.
             </div>
-            <span className="w-82 text-[20px] font-sans pt-10 break-words text-center text-gray-700 tracking-[.06em] font-normal">
+            <span className=" text-[20px] font-sans pt-10 break-words text-center text-gray-700 tracking-[.06em] font-normal support_section_descripition">
                 Ensure your project is fast now and in the future with
                 unparalleled access to the 
                 <br/> 
                 developers behind your 
                 favorite tools and guidance from our in-house experts.
             </span>
-            <div className="flex pl-10 pt-[5rem] gap-x-64">
+            <div className="next_js_img grid grid-cols-[1.4fr_1fr] pt-[5rem] gap-16">
                 <div className="flex flex-col">
                     {data.map((item, i) => (
                         <div className="flex mb-20 font-sans" key={i}>
@@ -90,7 +95,7 @@ const Enterprise = () => {
                         </div>
                     ))}
                 </div>
-                <div className=" w-96 flex flex-col drop-shadow flex-1 items-center rounded-[4px] border-[1px]">
+                <div className=" w-auto flex flex-col drop-shadow flex-1 items-center rounded-[4px] border-[1px]">
                     <div className="flex-1"></div>
                     <Image
                         className="relative mb-6"
@@ -108,6 +113,7 @@ const Enterprise = () => {
                     <div className="flex-1"></div>
                 </div>
             </div>
+          </div>
           </div>
         </>
     );

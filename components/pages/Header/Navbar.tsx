@@ -21,14 +21,14 @@ export function NavbarDefault() {
   }, []);
  
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 mx-3.5">
+    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 mx-3.5 dark:bg-deep-orange-500">
       <Typography
         as="li"
         variant="small"
         color="#666"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center dark-white-color">
+        <a href="/" className="flex items-center dark-white-color">
           Home
         </a>
       </Typography>
@@ -38,7 +38,7 @@ export function NavbarDefault() {
         color="#666"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center dark-subtitle-color">
+        <a href="/Integrations" className="flex items-center dark-subtitle-color">
          Integrations
         </a>
       </Typography>
@@ -92,7 +92,7 @@ export function NavbarDefault() {
             <div className="logo_links flex items-center gap-2 invertlogo">
         <Typography
           as="a"
-          href="#"
+          href="/"
           className="mr-4 cursor-pointer py-1.5 font-medium"
         >
           <Logo />

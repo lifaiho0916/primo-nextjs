@@ -1,0 +1,125 @@
+{
+    "databases_data":[
+        {
+            "id":1,
+            "icon_path":"/assets/integration/databases/database.svg",
+            "title":"AWS DynamoDB",
+            "tag":"Template",
+            "subtitle":"Fully managed NoSQL database service."
+        },
+        {
+            "id":2,
+            "icon_path":"/assets/integration/databases/aws.png",
+            "title":"AWS S3",
+            "tag":"Template",
+            "subtitle":"Simple object storage service"
+        },
+        {
+            "id":3,
+            "icon_path":"/assets/integration/databases/azure.png",
+            "title":"Azure Cosmos DB",
+            "subtitle":"Integration with Vercel made easy"
+        },
+        {
+            "id":4,
+            "icon_path":"/assets/integration/databases/fauna.png",
+            "title":"Fauna",
+            "subtitle":"Simplify databases to an API call"
+        },
+        {
+            "id":5,
+            "icon_path":"/assets/integration/databases/hasura.png",
+            "title":"Hasura",
+            "subtitle":"Instant GraphQL API for all your data"
+        },
+        {
+            "id":6,
+            "icon_path":"/assets/integration/databases/mongo.png",
+            "title":"MongoDB Atlas",
+            "subtitle":"Intuitive document-oriented database"
+        },
+        {
+            "id":7,
+            "icon_path":"/assets/integration/databases/planet.png",
+            "title":"PlanetScale",
+            "subtitle":"The database for developers"
+        },
+        {
+            "id":8,
+            "icon_path":"/assets/integration/databases/stepzen.png",
+            "title":"StepZen",
+            "subtitle":"GraphQL Made Easy"
+        },
+        {
+            "id":9,
+            "icon_path":"/assets/integration/databases/supabase.png",
+            "title":"Supabase",
+            "subtitle":"Create a backend in less than 2 minutes"
+        },
+        {
+            "id":10,
+            "icon_path":"/assets/integration/databases/thin.png",
+            "title":"Thin Backend",
+            "subtitle":"Build postgres-based realtime backends"
+        },
+        {
+            "id":11,
+            "icon_path":"/assets/integration/databases/tidb.png",
+            "title":"TiDB Cloud",
+            "subtitle":"MySQL-compatible serverless HTAP DB"
+        },
+        {
+            "id":12,
+            "icon_path":"/assets/integration/databases/tinybnrd.png",
+            "title":"Tinybird",
+            "subtitle":"Real-time analytics backend"
+        },
+        {
+            "id":13,
+            "icon_path":"/assets/integration/databases/upstash.png",
+            "title":"Upstash",
+            "subtitle":"Serverless Redis and Kafka"
+        },
+        {
+            "id":14,
+            "icon_path":"/assets/integration/databases/xata.png",
+            "title":"Xata",
+            "subtitle":"Deploy preview branches of your database"
+        },
+        {
+            "id":15,
+            "icon_path":"/assets/integration/databases/cockroach.png",
+            "title":"CockcroachDB",
+            "tag":"Beta",
+            "subtitle":"Postgres-compatible serverless SQL DB"
+        },
+        {
+            "id":16,
+            "icon_path":"/assets/integration/databases/neon.png",
+            "title":"Neon Postgress",
+            "tag":"Beta",
+            "subtitle":"Serverless Postgress"
+        },
+        {
+            "id":17,
+            "icon_path":"/assets/integration/databases/tigris.png",
+            "title":"Tigris",
+            "tag":"Beta",
+            "subtitle":"Data Platform for serverless apps"
+        },
+        {
+            "id":18,
+            "icon_path":"/assets/integration/databases/edge.png",
+            "title":"EdgeDB",
+            "tag":"In Development",
+            "subtitle":"A successor to SQL-based databases"
+        },
+        {
+            "id":19,
+            "icon_path":"/assets/integration/databases/prisma.avif",
+            "title":"Prisma",
+            "tag":"Template",
+            "subtitle":"Fully managed NoSQL database service."
+        }
+    ]
+}

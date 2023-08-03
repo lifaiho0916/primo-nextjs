@@ -1,0 +1,46 @@
+{
+    "featured":[
+        {
+            "id":1,
+            "icon":"/assets/integration/featured/content-img.svg",
+            "background_img":"/assets/integration/featured/contentful.svg",
+            "title":"Contentful",
+            "subtitle":"A modern content platform"
+        },
+        {
+            "id":2,
+            "icon":"/assets/integration/featured/mongo/mongo_icon.svg",
+            "background_img":"/assets/integration/featured/mongo/mongo_background.avif",
+            "title":"MongoDB Atlas",
+            "subtitle":"Intuitive document-oriented database"
+        },
+        {
+            "id":3,
+            "icon":"/assets/integration/featured/sanity/sanity_icon.svg",
+            "background_img":"/assets/integration/featured/sanity/sanity_background.avif",
+            "title":"Sanity",
+            "subtitle":"The unified content platform"
+        },
+        {
+            "id":4,
+            "icon":"/assets/integration/featured/sitecore/icon.png",
+            "background_img":"/assets/integration/featured/sitecore/sitecore_background.avif",
+            "title":"Sitecore XM Cloud",
+            "subtitle":"The modern Saas CMS"
+        },
+        {
+            "id":5,
+            "icon":"/assets/integration/featured/supabase/supabase_icon.png",
+            "background_img":"/assets/integration/featured/supabase/supabase_background.avif",
+            "title":"Supabase",
+            "subtitle":"Create a backend in less than 2 minutes"
+        },
+        {
+            "id":6,
+            "icon":"/assets/integration/featured/tinybird/tinybird_icon.png",
+            "background_img":"/assets/integration/featured/tinybird/tinybird_background.avif",
+            "title":"Tinybird",
+            "subtitle":"Real-time analytics backend"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+  "sidebar": [
+    {
+      "name": "Analytics",
+      "href": "#analytics"
+    },
+    {
+      "name": "CMS",
+      "href": "#cms"
+    },
+    {
+      "name": "Code Repository",
+      "href": "#respository"
+    },
+    {
+      "name": "Commerce",
+      "href": "#commerce"
+    },
+    {
+      "name": "Databases",
+      "href": "#databases"
+    },
+    {
+      "name": "Devtools",
+      "href": "#devtools"
+    },
+    {
+      "name": "Logging",
+      "href": "#logging"
+    },
+    {
+      "name": "Messaging",
+      "href": "#messaging"
+    },
+    {
+      "name": "Monitoring",
+      "href": "#monitoring"
+    },
+    {
+      "name": "Observability",
+      "href": "#observa"
+    },
+    {
+      "name": "Productivity",
+      "href": "#product"
+    },
+    {
+      "name": "Security",
+      "href": "#security"
+    },
+    {
+      "name": "Testing",
+      "href": "#testing"
+    }
+  ]
+}

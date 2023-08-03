@@ -1,0 +1,22 @@
+{
+    "codeRepository_data":[
+        {
+            "id":1,
+            "icon_path":"/assets/integration/code_repository/bit_image.svg",
+            "title":"Bitbucket",
+            "subtitle":"Git based code hosting and collaboration tool."
+        },
+        {
+            "id":2,
+            "icon_path":"/assets/integration/code_repository/github_icon.png",
+            "title":"GitHub",
+            "subtitle":"Where the world builds software"
+        },
+        {
+            "id":3,
+            "icon_path":"/assets/integration/code_repository/gitlab_icon.svg",
+            "title":"GitLab",
+            "subtitle":"Web-based Git repository"
+        }
+    ]
+}

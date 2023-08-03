@@ -1,0 +1,43 @@
+{
+    "commerce_data":[
+        {
+            "id":1,
+            "icon_path":"/assets/integration/commerce/commerce.svg",
+            "title":"BigCommerce",
+            "tag":"Template",
+            "subtitle":"Bring your business online with Vercel."
+        },
+        {
+            "id":2,
+            "icon_path":"/assets/integration/commerce/salesforce.avif",
+            "title":"Salesforce Commerce Cloud",
+            "tag":"Template",
+            "subtitle":"A customer-centric commerce platform"
+        },
+        {
+            "id":3,
+            "icon_path":"/assets/integration/commerce/shopify.png",
+            "title":"Shopify",
+            "subtitle":"Manage your products and sales with ease"
+        },
+        {
+            "id":4,
+            "icon_path":"/assets/integration/commerce/sitecore.png",
+            "title":"Sitecore OrderCloud",
+            "subtitle":"API-first B2X commerce"
+        },
+        {
+            "id":5,
+            "icon_path":"/assets/integration/commerce/swell.png",
+            "title":"Swell",
+            "subtitle":"Future-proof headless commerce."
+        },
+        {
+            "id":6,
+            "icon_path":"/assets/integration/commerce/saleor.avif",
+            "title":"Saleor",
+            "tag":"In Development",
+            "subtitle":"A fast, open and standards-based commerce API"
+        }
+    ]
+}

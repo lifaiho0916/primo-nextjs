@@ -1,0 +1,22 @@
+{
+    "messaging_data":[
+        {
+            "id":1,
+            "icon_path":"/assets/integration/messaging/message.svg",
+            "title":"Knock",
+            "subtitle":"Notifications API for developers."
+        },
+        {
+            "id":2,
+            "icon_path":"/assets/integration/messaging/novu.png",
+            "title":"Novu",
+            "subtitle":"The OSS notification infrastructure"
+        },
+        {
+            "id":3,
+            "icon_path":"/assets/integration/messaging/slack.png",
+            "title":"Slack",
+            "subtitle":"Streamline development processes"
+        }
+    ]
+}

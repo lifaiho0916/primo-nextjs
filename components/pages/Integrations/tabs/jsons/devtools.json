@@ -1,0 +1,71 @@
+{
+    "devtools_data":[
+        {
+            "id":1,
+            "icon_path":"/assets/integration/devtools/aws.png",
+            "title":"AWS",
+            "subtitle":"Take advantage of best-in-class AWS infrastructure with zero configuration."
+        },
+        {
+            "id":2,
+            "icon_path":"/assets/integration/devtools/clerk.png",
+            "title":"Clerk",
+            "subtitle":"Drop-in authentication for React"
+        },
+        {
+            "id":3,
+            "icon_path":"/assets/integration/devtools/deploy.png",
+            "title":"Deploy Summary",
+            "subtitle":"A visual summary of changes made"
+        },
+        {
+            "id":4,
+            "icon_path":"/assets/integration/devtools/doppler.png",
+            "title":"Doppler",
+            "subtitle":"Manage all your secrets in one place"
+        },
+        {
+            "id":5,
+            "icon_path":"/assets/integration/devtools/inngest.png",
+            "title":"Inngest",
+            "subtitle":"Reliable & powerful background functions"
+        },
+        {
+            "id":6,
+            "icon_path":"/assets/integration/devtools/liveblocks.png",
+            "title":"Liveblocks",
+            "tag":"Template",
+            "subtitle":"Real-time collaboration infrastructure for developers"
+        },
+        {
+            "id":7,
+            "icon_path":"/assets/integration/devtools/railway.png",
+            "title":"Railway",
+            "subtitle":"Configless infrastructure"
+        },
+        {
+            "id":8,
+            "icon_path":"/assets/integration/devtools/raycast.avif",
+            "title":"Raycast",
+            "subtitle":"View and modify your Vercel projects and deployments."
+        },
+        {
+            "id":9,
+            "icon_path":"/assets/integration/devtools/serverless.png",
+            "title":"ServerlessQ",
+            "subtitle":"Serverless Message Queues & Cron Jobs"
+        },
+        {
+            "id":10,
+            "icon_path":"/assets/integration/devtools/svix.png",
+            "title":"Svix",
+            "subtitle":"The enterprise ready webhooks service."
+        },
+        {
+            "id":11,
+            "icon_path":"/assets/integration/devtools/terraform.svg",
+            "title":"Terraform",
+            "subtitle":"Infrastructure as Code Software Tool"
+        }
+    ]
+}

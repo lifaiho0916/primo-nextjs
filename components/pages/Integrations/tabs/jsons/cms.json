@@ -1,0 +1,67 @@
+{
+    "cms_data":[
+        {
+            "id":1,
+            "icon_path":"/assets/integration/cms/agility.png",
+            "title":"Agility CMS",
+            "subtitle":"Headless CMS with Page Management."
+        },
+        {
+            "id":2,
+            "icon_path":"/assets/integration/cms/builder.png",
+            "title":"Builder.io",
+            "tag":"Template",
+            "subtitle":"Create end-to-end digital experiences without relying on developers"
+        },
+        {
+            "id":3,
+            "icon_path":"/assets/integration/cms/butter.png",
+            "title":"ButterCMS",
+            "subtitle":"Build with Butter. The #1 Headless CMS."
+        },
+        {
+            "id":4,
+            "icon_path":"/assets/integration/cms/cmscontent.png",
+            "title":"Contentful",
+            "subtitle":"A modern content platform"
+        },
+        {
+            "id":5,
+            "icon_path":"/assets/integration/cms/dato.png",
+            "title":"DatoCMS",
+            "subtitle":"User-friendly, performant Headless CMS"
+        },
+        {
+            "id":6,
+            "icon_path":"/assets/integration/cms/formspace.png",
+            "title":"Formspree",
+            "subtitle":"A form backend for your Vercel projects"
+        },
+        {
+            "id":7,
+            "icon_path":"/assets/integration/cms/sanity.png",
+            "title":"Sanity",
+            "subtitle":"The unified content platform"
+        },
+        {
+            "id":8,
+            "icon_path":"/assets/integration/cms/sitecore.avif",
+            "title":"Sitecore XM Cloud",
+            "subtitle":"The modern SaaS CMS"
+        },
+        {
+            "id":9,
+            "icon_path":"/assets/integration/cms/contentstack.png",
+            "title":"Contentstack",
+            "tag":"In Development",
+            "subtitle":"Manage and deliver omnichannel content with ease"
+        },
+        {
+            "id":10,
+            "icon_path":"/assets/integration/cms/hygraf.png",
+            "title":"Hygraph",
+            "tag":"In Development",
+            "subtitle":"The GraphQL Content Federation Platform"
+        }
+    ]
+}

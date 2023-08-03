@@ -221,7 +221,7 @@ canvas {
     transform: translateX(calc(-250px * 7));
   }
 }
-.giest_wrapper{
+.geist_wrapper{
   max-width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -277,6 +277,7 @@ canvas {
 [data-theme='dark'] {
   --background: #000;
   --foreground: white;
+  --darkcolor: #ededed;
   .invertlogo{
     filter: invert(1);
     opacity: .85;
@@ -285,7 +286,7 @@ canvas {
     background: #000;
   }
   .darktext{
-    color: #ededed;
+    color: --darkcolor;
   }
   .darksvg{
     background-color: #333;
@@ -400,5 +401,30 @@ border: 1px solid #30363d;
 .dark_background{
   background-color: #000;
   color: #ededed;
+}
+.dark_background_color{
+  background-color: #fff;
+}
+.dark_workflow_deployment{
+  position: relative;
+}
+.dark_workflow_deployment :before{
+  content: "";
+    position: absolute;
+    top: 0;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    z-index: 10;
+    background: linear-gradient(transparent,#000);
+}
+.dark_dark_background_color{
+   background:#000;
+}
+.hero_section_left:before{
+  display: none;
+}
+.hero_section_left{
+  filter: drop-shadow(0 0 #0000);
 }
 }

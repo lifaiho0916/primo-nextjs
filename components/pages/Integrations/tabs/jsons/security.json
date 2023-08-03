@@ -1,0 +1,10 @@
+{
+    "security_data":[
+        {
+            "id":1,
+            "icon_path":"/assets/integration/security.png",
+            "title":"Auth0",
+            "subtitle":"Next.js blog application with Upstash and Auth0"
+        }
+    ]
+}

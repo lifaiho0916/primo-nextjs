@@ -1,0 +1,28 @@
+{
+    "observalibity_data":[
+        {
+            "id":1,
+            "icon_path":"/assets/integration/observalibity/datadog.png",
+            "title":"Datadog",
+            "subtitle":"See it all in one place"
+        },
+        {
+            "id":2,
+            "icon_path":"/assets/integration/observalibity/highlight.png",
+            "title":"Highlight",
+            "subtitle":"Debug customer issues & frontend errors!"
+        },
+        {
+            "id":3,
+            "icon_path":"/assets/integration/observalibity/relic.png",
+            "title":"New Relic",
+            "subtitle":"Explore and analyze logs"
+        },
+        {
+            "id":4,
+            "icon_path":"/assets/integration/observalibity/middleware.png",
+            "title":"Middleware",
+            "subtitle":"AI-powered cloud observability platform."
+        }
+    ]
+}

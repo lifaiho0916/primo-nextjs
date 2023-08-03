@@ -1,0 +1,40 @@
+{
+    "logging_data":[
+        {
+            "id":1,
+            "icon_path":"/assets/integration/logging/logging.svg",
+            "title":"Axiom",
+            "subtitle":"Logs, functions, and Web Vitals insights."
+        },
+        {
+            "id":2,
+            "icon_path":"/assets/integration/logging/stock.png",
+            "title":"Better Stack - formerly Logtail",
+            "subtitle":"Query logs like you query your database"
+        },
+        {
+            "id":3,
+            "icon_path":"/assets/integration/logging/graphjson.png",
+            "title":"GraphJSON",
+            "subtitle":"Slice, Dice and Visualize your logs ."
+        },
+        {
+            "id":4,
+            "icon_path":"/assets/integration/logging/logalert.png",
+            "title":"Logalert",
+            "subtitle":"Easily set up alerts from your logs"
+        },
+        {
+            "id":4,
+            "icon_path":"/assets/integration/logging/logflare.png",
+            "title":"Logflare",
+            "subtitle":"Search, charts and alerts for logs"
+        },
+        {
+            "id":6,
+            "icon_path":"/assets/integration/logging/sematex.png",
+            "title":"Sematext Logs",
+            "subtitle":"Send logs to Sematext for easy debugging"
+        }
+    ]
+}

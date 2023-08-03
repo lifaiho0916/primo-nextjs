@@ -1,5 +1,7 @@
 import './globals.css'
 import '../components/pages/Enterprises/Enterprise.css'
+import '../components/pages/Enterprises/Enterprises2.css'
+import './integrationStyle.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Layout from '@/components/Layout'

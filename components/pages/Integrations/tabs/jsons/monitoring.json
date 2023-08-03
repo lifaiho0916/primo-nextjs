@@ -1,0 +1,28 @@
+{
+    "monitoring_data":[
+        {
+            "id":1,
+            "icon_path":"/assets/integration/monitoring/monitor.svg",
+            "title":"Checkly",
+            "subtitle":"Test & monitor your Vercel deployments"
+        },
+        {
+            "id":2,
+            "icon_path":"/assets/integration/monitoring/debugbear.png",
+            "title":"DebugBear",
+            "subtitle":"Monitor site speed and Lighthouse scores"
+        },
+        {
+            "id":3,
+            "icon_path":"/assets/integration/monitoring/sentary.png",
+            "title":"Sentry",
+            "subtitle":"Unlock commits, releases, and sourcemaps"
+        },
+        {
+            "id":4,
+            "icon_path":"/assets/integration/monitoring/zeit.png",
+            "title":"Zeitgeist",
+            "subtitle":"View and manage your Vercel deployments"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "testing_data":[
+        {
+            "id":1,
+            "icon_path":"/assets/integration/testing.svg",
+            "title":"Meticulous AI",
+            "subtitle":"AI generated end-to-end tests"
+        }
+    ]
+}
